@@ -1,39 +1,37 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Welcome to Jean's Online Professional Profile - simplified as <strong>Jean's pro</strong>
 
-Welcome USER_NAME,
+## Description
+<p>
+This websites serves for Jean Damascene Twizeyimana's online profile to show case of both his social and professional qualities on one hand, and what he would offer to the socio-economic development of the current and future society. 
+</p>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## User Requirements
+As any other web application, to access and use this website you need a functioning computer device equipped with a web browser. <br> 
+That is, the user should have access to a computer or tablet or mobile telephone that is equipped with a web brower, for example, Google Chrome, Internet Explorer, and Mozilla Firefox. 
 
-## Gitpod Reminders
+## Technologies
+This website is mainly based on HTML (HTML 5 in this case) and CSS (CSS 3 in this case) front-end languages.
+HTML 5 for creating the web structure or web objects, or web pages; and CSS 3 for the presentation, layout, beautify, or making the structure eye catching. 
+Additionally, the following frameworks and/or libraries have contributed as follow.
+<dl>
+   <dt>
+      Bootstrap framework
+   <dt>
+   <dd>
+       Bootstrap framework was used in this project to make this website interactive and to facilitate easy layout of the components that are created in html 5.
+That is, compatible to both small and large devices - departing from mobile phones, tablets to large screens.
+ devices facilitate easy layout of web components created using html. <br>
+In this project Bootstrap provided us with css classes to organize the layout using its grid classes and classes for an interactive websites - a website/web application that is compatible to both small and large screens; from mobile phones, tablets to large screens.
+   </dd>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+<dt>
+      Font Awesome
+   <dt>
+   <dd>
+       FontAwesome icons were used to improve the user experience of this website. 
+       It provides meaningful and actionable icons which prompt user about the functionality or meaning of the objects on the website.
+       Fontawesome icons made this website more user friendly and learnable.
+   </dd>
 
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+</dl>
