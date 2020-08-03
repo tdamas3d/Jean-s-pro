@@ -16,6 +16,28 @@ a:hover{
     overflow-wrap: break-word;
 }
 
+.text-center{
+    text-align: center;
+}
+.content-grid{
+    position: relative;
+    margin:0 auto;
+    /*margin: 30px;*/
+    padding-top:5px;
+    padding-right:10px;
+    padding-left:5px;
+    max-width:90%;
+    background-color:#f5f5f5;
+    color:#283e4a;
+    border: 1px solid #fff;
+    border-radius: 5px;   
+}
+
+.grid-divider{
+    margin-top: 10px;
+}
+
+
 /**********  Page Structure CSS  styles***************************************/
 
 /*top row css styles */
@@ -27,7 +49,7 @@ a:hover{
  height:8vh;
  background-color: #283e4a;
  color:#c7d1d8;
- border:1px solid chartreuse;
+ /*border:1px solid chartreuse;*/
 }
 
 .logo{
@@ -63,22 +85,32 @@ a:hover{
  /*margin:5px;
  margin: 0 auto;*/
  display: inline;
- border: 1px solid #00ff00;
- /*width:50px;*/
-
+ /*border: 1px solid #00ff00;*/
  font-size: 110%;
  padding: 5px;
  font-weight: lighter;
- /*font-weight: lighter;
- line-height: 15px;*/
 }
 
-/*****************/
 
-.main-content-zone{
-  background-color: #fff; /* Used if the image is unavailable */
+/****  welcome title zone **************/
+
+.welcome-title{
+    height: 10vh;
+    position:relative;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f5f5f5; 
 }
 
+.welcome-title h4{
+    text-transform: capitalize;
+    font-size:180%;
+    font-weight: lighter;
+}
+
+
+/*******        Hero Zone       **********/
 .hero-image{
   /*height: 265px; /* You must set a specified height */ 
   /*height: 465px; /* You must set a specified height */ 
@@ -89,8 +121,41 @@ a:hover{
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container*/
   border: 1px solid #00ff00;
-    
 }
+
+.hero-text-zone{
+    /*top: 30vh;*/
+    position: relative;
+    /*top: 2vh;*/
+    top: 50px;
+    height: auto;
+    border: 1px solid #00ff00;
+}
+
+.hero-text-zone h5, p{
+  /*padding-left: 60px;*/
+  padding-left: 35px;
+}
+
+.hero-text{
+    padding: 5px;
+    color:inherit;
+    text-transform: capitalize;
+
+}
+
+
+/********               ***/
+
+
+/*****************/
+
+.main-content-zone{
+  background-color: #fff; /* Used if the image is unavailable */
+}
+
+
+
 
 .content-display{
   padding-top:10px;  
@@ -98,17 +163,18 @@ a:hover{
 
 .right-content-zone{
  position:relative;
- padding-top: 5px;
+ margin:0;
+ padding-top: 10px;
  padding-left: 10px;
- padding-right: 30px;
+ padding-right: 10px;
  background-color: #283e4a;
- color:#c7d1d8;
+ /*color:#c7d1d8;*/
  text-align: justify;
 }
 
 .right-content-zone h4 {
  font-weight: lighter;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .right-content-zone ul {
  list-style:square;
@@ -118,14 +184,14 @@ a:hover{
 
 .right-content-zone ul li {
  font-weight: lighter;
- color:#fff;
+ color:#c7d1d8;
 }
 
 .right-content-zone hr {
     position: relative;
     width: 90%;
     height: 1px;
-    background-color: aliceblue;
+    background-color:#c7d1d8;
 }
 
 .footer-zone{
@@ -137,47 +203,12 @@ a:hover{
  color:#c7d1d8;
 }
 
-.hero-menu-zone{
-    top: 30vh;
-    height: 14vh;
-    border: 1px solid #ff0000;
-    padding-top: 10px;
-}
-
-#hero-menus nav ul li {
-   background-color: #0073b1;
-   color: aliceblue;
-    font-size: 118%;
-    padding: 4px;
-
-}
-
-#hero-menus nav ul li a {
-   color:#fff;
-}
-
-#hero-menus nav ul li a:hover {
-   text-decoration: none;
-   color:antiquewhite;
-}
-
-.top-main-title{
-    height: 10vh;
-    position:relative;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px; 
-}
-
-.top-main-title h4{
-    text-transform: capitalize;
-    font-size:180%;
-    font-weight: lighter;
-}
-
 .profile-zone{
-    top: 15vh;
-    border: 1px solid #ff0000;
+    /*top: 15vh;
+    border: 1px solid #ff0000;*/
+    position: relative;
+    top: 2vh;
+    padding-left: 40px;
 }
 
 .profile-zone h5{
@@ -186,10 +217,12 @@ a:hover{
 }
 
 .profile-image{
-    width: 160px;
-    height: 160px;
-    border: 1px solid #111;
-    /*border-radius: 50%;*/
+    /*width: 160px;
+    height: 160px;*/
+    width: 360px;
+    height: 360px;
+    /*border: 1px solid #111;*/
+    border-radius: 50%;
 }
 
 .description-summary{
