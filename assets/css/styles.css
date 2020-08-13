@@ -1,6 +1,8 @@
 /*********************      Common site CSS ****************************/
 html {
- overflow-x: hidden;
+ /*overflow-x: hidden;*/
+ margin: 0;
+ padding:0;
 }
 
 body {
@@ -13,7 +15,9 @@ a:hover{
 }
 
 .text-wrapper{
-    overflow-wrap: break-word;
+    /*overflow-wrap: break-word;*/
+    /*overflow-wrap: break-word;*/
+    overflow-wrap:normal;
 }
 
 .text-center{
@@ -40,64 +44,79 @@ a:hover{
 
 /**********  Page Structure CSS  styles***************************************/
 
-/*top row css styles */
+header{
+    margin: 0;
+    padding:0;
+}
 
+
+
+
+
+/*top row css styles */
+/*
 .top-logo-row{
  position:relative;
- /*padding: 5px;*/
  width:100%;
  height:8vh;
  background-color: #283e4a;
  color:#c7d1d8;
- /*border:1px solid chartreuse;*/
-}
-
+}*/
+/*
 .logo{
     padding-top:9px;
     color:aliceblue;
-}
+}*/
 
+#logo{
+    border: 0.2em solid blue;
+}
+/*
 .logo h6{
     text-decoration: overline;
     font-size:140%;
     font-weight: lighter;
-}
+}*/
 
 
 /***  Site Navigations styles  ****/
 
 .top-horizontal-menu-bar{
-    margin:0;
-    /*padding-left:78px;*/
-    padding-left:78px;
+    position: relative;
+    display:inline-block;
+    height:auto;
     text-transform: capitalize;
-}
+    padding-top: 10px;
+    }
 
 .top-horizontal-menu-bar nav ul{
     position:relative;
-    top:8px;
  list-style:none;
- padding: 5px;
- /*padding-bottom: 5px;*/
+ align:right;
 }
 
 .top-horizontal-menu-bar nav ul li{
- /*margin:5px;
- margin: 0 auto;*/
  display: inline;
- /*border: 1px solid #00ff00;*/
  font-size: 140%;
- padding: 5px;
+ padding: 2px 10px 2px 10px;
  font-weight: lighter;
 }
+
+.top-horizontal-menu-bar nav ul li:not(:last-child){
+border-right:1px solid black;
+}
+
+.top-horizontal-menu-bar nav ul li a{
+ font-weight: bold;
+}
+
 
 
 /****  welcome title zone **************/
 
 .welcome-title{
-    height: 10vh;
     position:relative;
-    text-align: center;
+    height:auto;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #f5f5f5; 
@@ -108,45 +127,81 @@ a:hover{
     font-size:180%;
     font-weight: lighter;
 }
-
+.inline-menu{
+display: inline;
+}
 
 /*******        Hero Zone       **********/
-.hero-image{
+.hero-zone{
   /*height: 265px; /* You must set a specified height */ 
-  /*height: 465px; /* You must set a specified height */ 
-  height: 82vh;
+  height: 325px; /* You must set a specified height */ 
+  border: 1px solid red;
+}
+
+.hero-image{
+  height: 265px; /* You must set a specified height */ 
+  width: inherit;
   background-image: url('../images/hero-image.jpg'); /* The image used */
   background-color: #fff; /* Used if the image is unavailable */
-  background-position: top; /* Center the image */
+  background-position: right top; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container*/
   border: 1px solid #00ff00;
 }
+
+/** Profile picture styles  */
+.profile-picture-zone{
+
+        position: absolute;
+    top: 15vh;
+    padding-left: 40px;
+    /*
+    position: relative;
+    top: 2vh;
+    padding-left: 40px;*/
+}
+
+.profile-picture-zone h5{
+    font-size: 160%;
+    font-weight: lighter;
+}
+
+.profile-picture{
+    width: 160px;
+    height: 160px;
+    /*width: 360px;
+    height: 360px;
+    border-radius: 5px;
+    /*border: 1px solid #111;*/
+    border-radius: 50%;
+}
+
 
 .hero-text-zone{
     /*top: 30vh;*/
     position: relative;
     /*top: 2vh;*/
     top: 50px;
+    /*max-width:660px;*/
     height: auto;
     border: 1px solid #00ff00;
 }
 
 .hero-text-zone h5, p{
-  /*padding-left: 60px;*/
-  padding-left: 35px;
-}
-
-.hero-text{
-    padding: 5px;
+  /*padding-left: 60px;
+  padding-left: 35px;*/
+    padding-top: 5px ;
+    padding-left: 35px;
     color:inherit;
-    text-transform: capitalize;
-
 }
 
 
 /********               ***/
-
+.menu-test{
+   position: relative;
+    top: 20vh;
+    padding-left: 240px;
+    color: red;
+}
 
 /*****************/
 
@@ -158,6 +213,7 @@ a:hover{
 
 
 .content-display{
+  position:relative;
   padding-top:10px;  
 }
 
@@ -201,29 +257,6 @@ a:hover{
  height:40vh;
  background-color: #283e4a;
  color:#c7d1d8;
-}
-
-.profile-zone{
-    /*top: 15vh;
-    border: 1px solid #ff0000;*/
-    position: relative;
-    top: 2vh;
-    padding-left: 40px;
-}
-
-.profile-zone h5{
-    font-size: 160%;
-    font-weight: lighter;
-}
-
-.profile-image{
-    /*width: 160px;
-    height: 160px;*/
-    width: 360px;
-    height: 360px;
-    /*border: 1px solid #111;
-    border-radius: 50%;*/
-    border-radius: 5px;
 }
 
 .description-summary{
