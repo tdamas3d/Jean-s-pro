@@ -31,10 +31,17 @@ a:hover{
     padding-right:10px;
     padding-left:5px;
     max-width:90%;
-    background-color:#f5f5f5;
+    background-color:white;
+    /*background-color:#f5f5f5;*/
     color:#283e4a;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
     border-radius: 5px;   
+}
+
+.content-grid h2{
+font-weight: bold;
+font-size: 146%; 
+text-align: left;
 }
 
 .grid-divider{
@@ -49,6 +56,9 @@ header{
     padding:0;
 }
 
+.headings-color{
+ color: greenyellow;
+}
 
 
 
@@ -105,19 +115,20 @@ header{
  font-weight: lighter;
 }
 
-/*.top-horizontal-menu-bar nav ul li:not(:last-child){
-border-right:1px solid green;
-}*/
-
-.top-horizontal-menu-bar nav ul li{
-/*border-right:1px solid green;*/
-border:1px solid green;
+.top-horizontal-menu-bar nav ul li:not(:last-child){
+border-right:4px solid green;
 }
+
+/*.top-horizontal-menu-bar nav ul li{
+border-right:1px solid green;
+border:1px solid green;
+}*/
 
 
 .top-horizontal-menu-bar nav ul li a{
- font-weight: lighter;
  padding: 2px 5px 2px 5px;
+ font-weight: lighter;
+ color:green;
 }
 
 
@@ -127,7 +138,7 @@ border:1px solid green;
     position: relative;
     display:inline-block;
     height:auto;
-    top: -42vh;
+    top: -35vh;
     text-align: right;
     text-transform: capitalize;
     padding-top: 10px;
@@ -144,7 +155,6 @@ border:1px solid green;
 .hero-zone-menus nav ul li{
  display: inline;
  font-size: 140%;
- font-weight: lighter;
 }
 
 /*.hero-zone-menus nav ul li:not(:last-child){
@@ -152,12 +162,13 @@ border-right:1px solid green;
 }*/
 
 .hero-zone-menus nav ul li{
-border:1px solid green;
+border:1px solid greenyellow;
 }
 
 .hero-zone-menus nav ul li a{
- font-weight: lighter;
  padding: 2px 5px 2px 5px;
+ font-weight: bold;
+ color:greenyellow;
 }
 
 /**************** End of Hero-zone-Menu *******************/
@@ -188,7 +199,7 @@ display: inline;
 
 /*******        Hero Zone       **********/
 .hero-zone{
-  height: 325px; /* You must set a specified height */ 
+  /*height: 325px; /* You must set a specified height */ 
   /*border: 1px solid red;*/
 }
 
@@ -201,14 +212,14 @@ display: inline;
   background-color: #fff; /* Used if the image is unavailable */
   background-position: right top; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  border: 1px solid greenyellow;
+  /*border: 1px solid greenyellow;*/
   /*z-index: 8;*/
 }
 
 /** Profile picture styles  */
 .profile-picture-zone{
     position: relative;
-    top: 15vh;
+    top: 6vh;
     padding-left: 40px;
     z-index: 1;
 }
@@ -227,20 +238,76 @@ display: inline;
 
 .hero-text-zone{
     position: relative;
-    /*top: -34vh;*/
-    top: -62vh;
+    /*top: -34vh;
+    top: -34vh;*/
     height: auto;
     /*border: 1px solid #00ff00;*/
+    z-index:10;
 }
 
-.hero-text-zone h5, p{
+.hero-text-zone p{
+    position: relative;
+    display: block;
+    top: -34vh;
     padding-top: 5px ;
-    /*padding-left: 35px;*/
+    padding-bottom: 6px ;
+    padding-left:0;
+    text-align: right;
+    font-size:100%;
+    font-weight: lighter;
+    line-height: 1.2em;
     color:inherit;
+    color:green;
+    border-radius: 4px;
+}
+
+.hero-text-zone p span{
+    position: relative;
+    background-color: rgba(173, 255, 47, .1);
+    color:green;
 }
 
 
-/********               ***/
+
+.hero-text-zone h1{
+    position: relative;
+    /*display:inline;*/
+    top: -74vh;
+    /*top: -56vh;*/
+    text-align: right;
+    font-size:220%;
+    font-weight: lighter;
+    line-height: 1.2em;
+    color:green;
+    /*background-color:greenyellow;*/
+    background-color: rgba(173, 255, 47, .4);
+    border-radius: 4px;
+    /*color: white;*/
+}
+
+.hero-text-zone hr{
+    position: relative;
+    top: -34vh;
+    text-align: center;
+    font-size:220%;
+    font-weight: lighter;
+    line-height: 1.2em;
+    color:inherit;
+    /*border: 1px solid greenyellow;*/
+}
+
+.call-to-action-text{
+    /*background-color: greenyellow;*/
+    /*background-color: rgba(173, 255, 47);*/
+ color:yellow;
+  -webkit-text-fill-color:white; 
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+ font-weight: lighter;
+ font-size: 90%;
+}
+
+/********   **********/
 
 
 /*****************/
@@ -254,9 +321,8 @@ display: inline;
 
 .content-display{
   position:relative;
-  top: -47vh;
-  /*border: 1px solid red;*/
-  padding-top:40px;
+  top: -38vh;
+  padding-top:10px;
 }
 
 .right-content-zone{
@@ -300,10 +366,11 @@ display: inline;
 
 .footer-zone{
  position:relative;
- top: -47vh;
+ top: -35vh;
+ margin-bottom:-34vh;
  padding-top: 5px;
  width:100%;
- height:40vh;
+ height:auto;
  background-color: #283e4a;
  color:#c7d1d8;
 }
