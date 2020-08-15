@@ -245,12 +245,11 @@ display: inline;
     z-index:10;
 }
 
-.hero-text-zone p{
+.hero-text-zone h6{
     position: relative;
     display: block;
+    /*top: -34vh;*/
     top: -34vh;
-    padding-top: 5px ;
-    padding-bottom: 6px ;
     padding-left:0;
     text-align: right;
     font-size:100%;
@@ -261,7 +260,25 @@ display: inline;
     border-radius: 4px;
 }
 
-.hero-text-zone p span{
+
+.hero-text-zone h6[class="competences"]{
+    position: relative;
+    display: block;
+    /*top: -34vh;*/
+    top: -32vh;
+    padding-bottom: 6px ;
+    text-align: right;
+    font-size:100%;
+    font-weight: lighter;
+    line-height: 1.2em;
+    color:inherit;
+    color:green;
+    border-radius: 4px;
+}
+
+
+
+.hero-text-zone h6 span{
     position: relative;
     background-color: rgba(173, 255, 47, .1);
     color:green;
@@ -287,7 +304,8 @@ display: inline;
 
 .hero-text-zone hr{
     position: relative;
-    top: -34vh;
+    /*top: -34vh;*/
+    top: -30vh;
     text-align: center;
     font-size:220%;
     font-weight: lighter;
@@ -323,7 +341,20 @@ display: inline;
   position:relative;
   top: -38vh;
   padding-top:10px;
+  z-index: 15;
 }
+
+
+.content-display p{
+text-align: justify;
+}
+
+.content-display a{
+/*font-size: 110%;*/
+text-decoration: underline;
+}
+
+
 
 .right-content-zone{
  position:relative;
