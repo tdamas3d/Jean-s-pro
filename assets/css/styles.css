@@ -133,6 +133,7 @@ border:1px solid green;
  display: inline;
  font-size: 140%;
  border:1px solid greenyellow;
+ padding: 10px 5px 10px 5px;
 }
 
 /*.hero-zone-menus nav ul li:not(:last-child){
@@ -141,10 +142,12 @@ border-right:1px solid green;
 
 .hero-zone-menu-bar nav ul li a{
     margin-bottom:0;
- padding: 2px 5px 2px 5px;
+ padding: 10px 5px 10px 5px;
  color:green;
   font-weight: lighter;
- line-height: 200%;
+  font-size: 140%;
+ /*line-height: 220%;*/
+ line-height: 1.6em;
 }
 
 /**************** End of Hero-zone-Menu *******************/
