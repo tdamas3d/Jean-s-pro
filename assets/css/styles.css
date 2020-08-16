@@ -10,6 +10,7 @@ margin:0;
 padding:0;
 color: green;
 }
+
 a{
  color: green;
 }
@@ -26,11 +27,14 @@ a:hover{
 }
 .content-grid{
     position: relative;
-    margin:0 auto;
+    margin: 0 auto;
+    /*margin-bottom: 4px;*/
     padding-top:5px;
     padding-right:10px;
     padding-left:5px;
     max-width:90%;
+    /*height: 365px;*/
+    height: auto;
     background-color:white;
     /*background-color:#f5f5f5;*/
     color:#283e4a;
@@ -60,42 +64,14 @@ header{
  color: greenyellow;
 }
 
-
-
-
-/*top row css styles */
-/*
-.top-logo-row{
- position:relative;
- width:100%;
- height:8vh;
- background-color: #283e4a;
- color:#c7d1d8;
-}*/
-/*
-.logo{
-    padding-top:9px;
-    color:aliceblue;
-}*/
-
-#logo{
-    border: 0.2em solid blue;
-}
-/*
-.logo h6{
-    text-decoration: overline;
-    font-size:140%;
-    font-weight: lighter;
-}*/
-
-
 /***  Site Navigations styles  ****/
 
 /**** Top-Horizontal-Menu *****/
 
 .top-horizontal-menu-bar{
     position: relative;
-    display:inline-block;
+    display:inline;
+    /*height:10vh;*/
     height:auto;
     text-transform: capitalize;
     text-align: right;
@@ -134,41 +110,41 @@ border:1px solid green;
 
 /**** Hero-zone Menu *****/
 
-.hero-zone-menus{
+.hero-zone-menu-bar{
     position: relative;
+    top: -52vh;
     display:inline-block;
     height:auto;
-    top: -35vh;
     text-align: right;
     text-transform: capitalize;
-    padding-top: 10px;
+    /*padding-top: 10px;*/
     background-color:white; 
-    /*border: 1px solid red;*/
     z-index: 13;
     }
 
-.hero-zone-menus nav ul{
+.hero-zone-menu-bar nav ul{
     position:relative;
+    margin:0;
+    padding:0;
     list-style:none;
 }
 
-.hero-zone-menus nav ul li{
+.hero-zone-menu-bar nav ul li{
  display: inline;
  font-size: 140%;
+ border:1px solid greenyellow;
 }
 
 /*.hero-zone-menus nav ul li:not(:last-child){
 border-right:1px solid green;
 }*/
 
-.hero-zone-menus nav ul li{
-border:1px solid greenyellow;
-}
-
-.hero-zone-menus nav ul li a{
+.hero-zone-menu-bar nav ul li a{
+    margin-bottom:0;
  padding: 2px 5px 2px 5px;
- font-weight: bold;
- color:greenyellow;
+ color:green;
+  font-weight: lighter;
+ line-height: 200%;
 }
 
 /**************** End of Hero-zone-Menu *******************/
@@ -177,9 +153,13 @@ border:1px solid greenyellow;
 
 
 
-/****  welcome title zone **************/
+/****  LOGO zone **************/
 
-.welcome-title{
+#logo{
+    border: 0.2em solid blue;
+}
+
+.logo-row{
     position:relative;
     height:auto;
     padding-top: 10px;
@@ -187,26 +167,25 @@ border:1px solid greenyellow;
     background-color: #f5f5f5; 
 }
 
-.welcome-title h1{
+.logo-row h1{
     text-transform: capitalize;
     font-size:180%;
     color:green;
     font-weight: bold;
 }
-.inline-menu{
+/*.inline-menu{
 display: inline;
-}
+}*/
 
 /*******        Hero Zone       **********/
-.hero-zone{
-  /*height: 325px; /* You must set a specified height */ 
-  /*border: 1px solid red;*/
-}
+
 
 .hero-image{
   position: relative;
+  /*top: -25vh;*/
   top: -25vh;
-  height: 265px; /* You must set a specified height */ 
+  /*height: 265px; /* You must set a specified height */ 
+  height: 365px; /* You must set a specified height */ 
   width: inherit;
   background-image: url('../images/hero-image.jpg'); /* The image used */
   background-color: #fff; /* Used if the image is unavailable */
@@ -219,7 +198,8 @@ display: inline;
 /** Profile picture styles  */
 .profile-picture-zone{
     position: relative;
-    top: 6vh;
+    /*top: 6vh;*/
+    top: 8vh;
     padding-left: 40px;
     z-index: 1;
 }
@@ -238,21 +218,23 @@ display: inline;
 
 .hero-text-zone{
     position: relative;
-    /*top: -34vh;
-    top: -34vh;*/
     height: auto;
-    /*border: 1px solid #00ff00;*/
     z-index:10;
+}
+
+.container-fluid .hero-text-zone{
+ margin:0;
+ padding:0;
 }
 
 .hero-text-zone h6{
     position: relative;
     display: block;
     /*top: -34vh;*/
-    top: -34vh;
-    padding-left:0;
+    top: -50vh;
+    padding-right:15px;
     text-align: right;
-    font-size:100%;
+    font-size:108%;
     font-weight: lighter;
     line-height: 1.2em;
     color:inherit;
@@ -264,11 +246,12 @@ display: inline;
 .hero-text-zone h6[class="competences"]{
     position: relative;
     display: block;
-    /*top: -34vh;*/
-    top: -32vh;
-    padding-bottom: 6px ;
+    /*top: -32vh;*/
+    top: -44vh;
+    padding-right:15px;
+    padding-bottom: 6px;
     text-align: right;
-    font-size:100%;
+    font-size:110%;
     font-weight: lighter;
     line-height: 1.2em;
     color:inherit;
@@ -285,19 +268,24 @@ display: inline;
 }
 
 
-
 .hero-text-zone h1{
     position: relative;
-    /*display:inline;*/
-    top: -74vh;
-    /*top: -56vh;*/
+    /*display:inline;
+    top: -74vh;*/
+    /*top: -94vh;*/
+    left:0;
+    /*top: -93vh;*/
+    top: -617px;
+    padding-right:15px;
+    padding-bottom:8px;
     text-align: right;
     font-size:220%;
     font-weight: lighter;
-    line-height: 1.2em;
+    line-height: 1.4em;
     color:green;
     /*background-color:greenyellow;*/
     background-color: rgba(173, 255, 47, .4);
+    background-size: cover;
     border-radius: 4px;
     /*color: white;*/
 }
@@ -306,10 +294,10 @@ display: inline;
     position: relative;
     /*top: -34vh;*/
     top: -30vh;
-    text-align: center;
+    /*text-align: center;
     font-size:220%;
     font-weight: lighter;
-    line-height: 1.2em;
+    line-height: 1.6em;*/
     color:inherit;
     /*border: 1px solid greenyellow;*/
 }
@@ -326,8 +314,17 @@ display: inline;
 }
 
 /********   **********/
-
-
+.right-content-zone .content-grid h2{
+padding-bottom: 5px;
+color:green;
+background-color: rgba(173, 255, 47, .3);
+background-size: cover;
+font-weight: lighter;
+font-size: 160%;
+line-height: 1.6em;
+text-align: center;
+text-transform: capitalize;
+}
 /*****************/
 
 .main-content-zone{
@@ -339,7 +336,8 @@ display: inline;
 
 .content-display{
   position:relative;
-  top: -38vh;
+  /*top: -38vh;*/
+  top: -42vh;
   padding-top:10px;
   z-index: 15;
 }
@@ -350,8 +348,8 @@ text-align: justify;
 }
 
 .content-display a{
-/*font-size: 110%;*/
-text-decoration: underline;
+/*font-size: 110%;
+text-decoration: underline;*/
 }
 
 
@@ -392,13 +390,13 @@ text-decoration: underline;
 
 .right-side-bar-adjust{
     position:relative;
-    top:-40vh;
+    top:-42vh;
 }
 
 .footer-zone{
  position:relative;
- top: -35vh;
- margin-bottom:-34vh;
+ top: -36vh;
+ margin-bottom:-35vh;
  padding-top: 5px;
  width:100%;
  height:auto;
