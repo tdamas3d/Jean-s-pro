@@ -112,7 +112,7 @@ border:1px solid green;
 
 .hero-zone-menu-bar{
     position: relative;
-    top: -52vh;
+    top: -48vh;
     display:inline-block;
     height:auto;
     text-align: right;
@@ -144,8 +144,8 @@ border-right:1px solid green;
     margin-bottom:0;
  padding: 10px 5px 10px 5px;
  color:green;
-  font-weight: lighter;
-  font-size: 140%;
+  font-weight: bold;
+  font-size: 120%;
  /*line-height: 220%;*/
  line-height: 1.6em;
 }
@@ -299,7 +299,7 @@ display: inline;
 .hero-text-zone hr{
     position: relative;
     /*top: -34vh;*/
-    top: -30vh;
+    top: -24vh;
     /*text-align: center;
     font-size:220%;
     font-weight: lighter;
@@ -343,7 +343,7 @@ text-transform: capitalize;
 .content-display{
   position:relative;
   /*top: -38vh;*/
-  top: -42vh;
+  top: -38vh;
   padding-top:10px;
   z-index: 15;
 }
