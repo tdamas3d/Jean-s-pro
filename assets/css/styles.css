@@ -65,53 +65,100 @@ header{
 }
 
 /***  Site Navigations styles  ****/
-
-/**** Top-Horizontal-Menu *****/
-
-.top-horizontal-menu-bar{
+.top-menu-and-social-networks{
     position: relative;
-    display:inline;
-    /*height:10vh;*/
-    height:auto;
-    text-transform: capitalize;
-    text-align: right;
+    display: inline;
     padding-top: 10px;
-    background-color: #f5f5f5; 
-    }
+    text-align: right;
+}
+.top-menu-and-social-networks h6{
+ display: inline;
+ padding-left:10px;
+ font-weight: lighter;
+ font-size: 180%;
+}
 
-.top-horizontal-menu-bar nav ul{
+/******  Nav for top-menu *********************/
+.top-menu-and-social-networks nav[class="top-menu"]{
+    padding-left: 0;
     position:relative;
+    display: inline-block;
+}
+.top-menu-and-social-networks nav[class="top-menu"] ul{
+    position:relative;
+     display: inline;
+     padding-left: 5px;
     list-style:none;
 }
 
-.top-horizontal-menu-bar nav ul li{
+.top-menu-and-social-networks nav[class="top-menu"] ul li{
  display: inline;
  font-size: 140%;
- /*padding: 2px 10px 2px 10px;*/
  font-weight: lighter;
+ /*border:1px solid greenyellow;*/
 }
 
-.top-horizontal-menu-bar nav ul li:not(:last-child){
+/*
+.top-menu-and-social-networks nav[class="top-menu"] ul li:not(:last-child){
 border-right:4px solid green;
-}
-
-/*.top-horizontal-menu-bar nav ul li{
-border-right:1px solid green;
-border:1px solid green;
 }*/
 
-
-.top-horizontal-menu-bar nav ul li a{
- padding: 2px 5px 2px 5px;
- font-weight: lighter;
+.top-menu-and-social-networks nav[class="top-menu"] ul li a{
+ display: inline;
+ padding: 5px;
  color:green;
+  font-weight: lighter;
+  font-size: 120%;
+ line-height: 1.6em;
 }
 
+/******  Nav for social networks *********************/
+
+.top-menu-and-social-networks nav[class="social-networks"]{
+    padding-left: 0;
+    position:relative;
+    display: inline-block;
+}
+.top-menu-and-social-networks nav[class="social-networks"] ul{
+    position:relative;
+     display: inline;
+     padding-left: 5px;
+    list-style:none;
+}
+
+.top-menu-and-social-networks nav[class="social-networks"] ul li{
+ display: inline;
+ font-size: 140%;
+ font-weight: lighter;
+}
+/*
+.top-menu-and-social-networks nav[class="social-networks"] ul li:not(:last-child){
+border-right:4px solid green;
+}*/
+
+.top-menu-and-social-networks nav[class="social-networks"] ul li a{
+ display: inline;
+ padding: 5px;
+}
+
+
+/*************  End of top menu and  social networks styles *****/
+
+/*
+.social-image{
+ width:32px;
+ height:32px;
+ padding: 5px;
+ text-align:center;
+ background-color:inherit;
+ border-radius: 50%;
+}*/
 
 /**** Hero-zone Menu *****/
 
 .hero-zone-menu-bar{
     position: relative;
+    /*top: -48vh;*/
     top: -48vh;
     display:inline-block;
     height:auto;
@@ -132,7 +179,7 @@ border:1px solid green;
 .hero-zone-menu-bar nav ul li{
  display: inline;
  font-size: 140%;
- border:1px solid greenyellow;
+ border:1px solid green;
  padding: 10px 5px 10px 5px;
 }
 
@@ -143,8 +190,8 @@ border-right:1px solid green;
 .hero-zone-menu-bar nav ul li a{
     margin-bottom:0;
  padding: 10px 5px 10px 5px;
- color:green;
-  font-weight: bold;
+ color:greenyellow;
+  font-weight: lighter;
   font-size: 120%;
  /*line-height: 220%;*/
  line-height: 1.6em;
@@ -153,13 +200,19 @@ border-right:1px solid green;
 /**************** End of Hero-zone-Menu *******************/
 
 
-
+/************      right side bar menu *******************/
+.content-grid ul li a{
+    font-size: 140%;
+    line-height: 1.5em;
+    color:inherit;
+}
 
 
 /****  LOGO zone **************/
 
 #logo{
-    border: 0.2em solid blue;
+    /*border: 0.2em solid blue;*/
+    border: 0.2em solid orange;
 }
 
 .logo-row{
@@ -175,6 +228,7 @@ border-right:1px solid green;
     font-size:180%;
     color:green;
     font-weight: bold;
+    line-height: 1.6em;
 }
 /*.inline-menu{
 display: inline;
@@ -186,7 +240,7 @@ display: inline;
 .hero-image{
   position: relative;
   /*top: -25vh;*/
-  top: -25vh;
+  top: -160px;
   /*height: 265px; /* You must set a specified height */ 
   height: 365px; /* You must set a specified height */ 
   width: inherit;
@@ -240,7 +294,7 @@ display: inline;
     padding-right:15px;
     text-align: right;
     /*font-size:108%;*/
-    font-size:150%;
+    font-size:180%;
     font-weight: lighter;
     line-height: 1.2em;
     color:green;
@@ -281,14 +335,15 @@ display: inline;
     left:0;
     /*top: -93vh;*/
     /*top: -617px;*/
-    top: -590px;
+    top: -567px;
     padding-right:15px;
     padding-bottom:8px;
     text-align: right;
     font-size:220%;
     font-weight: lighter;
     line-height: 1.6em;
-    color:darkred;
+    /*color:darkred;*/
+    color: orange;
     /*background-color:greenyellow;*/
     background-color: rgba(173, 255, 47, .4);
     background-size: cover;
@@ -298,19 +353,11 @@ display: inline;
 
 .hero-text-zone hr{
     position: relative;
-    /*top: -34vh;*/
     top: -24vh;
-    /*text-align: center;
-    font-size:220%;
-    font-weight: lighter;
-    line-height: 1.6em;*/
     color:inherit;
-    /*border: 1px solid greenyellow;*/
 }
 
 .call-to-action-text{
-    /*background-color: greenyellow;*/
-    /*background-color: rgba(173, 255, 47);*/
  color:yellow;
   -webkit-text-fill-color:white; 
   -webkit-text-stroke-width: 1px;
@@ -322,13 +369,16 @@ display: inline;
 /********   **********/
 .right-content-zone .content-grid h2{
 padding-bottom: 5px;
-color:green;
-background-color: rgba(173, 255, 47, .3);
+/*color:#8b0000;*/
+padding-left: 10px;
+color:white;
+/*background-color: rgba(173, 255, 47, .1);*/
+background-color: orange;
 background-size: cover;
 font-weight: lighter;
-font-size: 160%;
+font-size: 180%;
 line-height: 1.6em;
-text-align: center;
+text-align: left;
 text-transform: capitalize;
 }
 /*****************/
@@ -348,16 +398,15 @@ text-transform: capitalize;
   z-index: 15;
 }
 
+.content-display h2{
+font-weight: bold;
+font-size: 220%;
+line-height: 1.2em;
+}
 
 .content-display p{
 text-align: justify;
 }
-
-.content-display a{
-/*font-size: 110%;
-text-decoration: underline;*/
-}
-
 
 
 .right-content-zone{
