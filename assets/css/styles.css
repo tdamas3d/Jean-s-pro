@@ -76,6 +76,7 @@ header{
  padding-left:10px;
  font-weight: lighter;
  font-size: 180%;
+ color:green;
 }
 
 /******  Nav for top-menu *********************/
@@ -139,6 +140,7 @@ border-right:4px solid green;
 .top-menu-and-social-networks nav[class="social-networks"] ul li a{
  display: inline;
  padding: 5px;
+ color: green;
 }
 
 
@@ -202,8 +204,8 @@ border-right:1px solid green;
 
 /************      right side bar menu *******************/
 .content-grid ul li a{
-    font-size: 140%;
-    line-height: 1.5em;
+    font-size: 120%;
+    line-height: 1.2em;
     color:inherit;
 }
 
