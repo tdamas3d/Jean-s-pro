@@ -179,7 +179,7 @@ header{
   top: -160px;
   height: 405px; /* You must set a specified height */ 
   width: inherit;
-  background-image: url('../images/banner2-top.jpg'); /* The image used */
+  background-image: url('../images/hero-image.jpg'); /* The image used */
   background-color:#fdb2c7; /* Used if the image is unavailable */
   background-position: right top; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
