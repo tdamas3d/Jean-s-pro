@@ -474,8 +474,6 @@ font-size: 120%;
     width:100%;
     height: auto;
     margin: 0;
-    /*padding-left: 80px;
-    padding-right: 80px;*/
     padding-bottom: 10px;
     background-image: url('../images/portfo-bg.jpg'); /* The image used */
     background-color: #fff; /* Used if the image is unavailable */
