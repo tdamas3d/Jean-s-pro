@@ -177,13 +177,14 @@ header{
 .hero-image{
   position: relative;
   top: -160px;
-  height: 365px; /* You must set a specified height */ 
+  height: 405px; /* You must set a specified height */ 
   width: inherit;
-  background-image: url('../images/banner-top.jpg'); /* The image used */
-  background-color: #fff; /* Used if the image is unavailable */
+  background-image: url('../images/banner2-top.jpg'); /* The image used */
+  background-color:#fdb2c7; /* Used if the image is unavailable */
   background-position: right top; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
+  /*border: 1px solid darkred;*/
 }
 
 /** Profile picture styles  */
@@ -273,14 +274,14 @@ header{
     padding-right:15px;
     padding-bottom:8px;
     text-align: right;
-    font-size:220%;
-    font-weight: bold;
+    font-size:280%;
+    font-weight: lighter;
     line-height: 1.6em;
     /*color: orange;*/
     /*color:darkred;    /*color:darkred;*/
     color:darkred;    /*color:darkred;*/
     /*background-color:greenyellow;*/
-    background-color: rgba(173, 255, 47, .4);
+    /*background-color: rgba(173, 255, 47, .4);*/
     background-size: cover;
     border-radius: 4px;
     /*color: white;*/
@@ -565,6 +566,7 @@ text-transform: uppercase;
     background-color: rgba(40, 62, 74, .1);*/
     /*background-color:#ec869b;*/
     background-color:whitesmoke;
+    /*border-top: 1px solid darkred;*/
     z-index: 10;
 }
 
