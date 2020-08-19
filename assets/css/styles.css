@@ -447,7 +447,8 @@ font-size: 120%;
  padding-bottom: 20px;
  width:100%;
  height:auto;
- background-color: #283e4a;
+ /*background-color: #283e4a;*/
+ background-color: rgba(40, 62, 74, .5);
  color:#c7d1d8;
 }
 
@@ -513,13 +514,14 @@ font-size: 180%;
     padding-bottom: 10px;
     padding-top: 10px;
     border: 1px solid white;
-    border-style: inset;
+    /*border-style: none;*/
 
 }
 .contactus-zone h2{
 font-weight: lighter;
 font-size: 180%;
 }
+
 .contactus-zone button{
     margin-top:5px;
     
@@ -545,9 +547,10 @@ font-size: 180%;
     left:0;
     width:inherit;
     height:36vh;
-    background-color: rgba(173, 255, 47, .9);
-    /*background-color:#ec869b;
-    background-color:#feb3c7;*/
+    /*background-color: rgba(173, 255, 47, .9);
+    background-color: rgba(40, 62, 74, .1);*/
+    /*background-color:#ec869b;*/
+    background-color:whitesmoke;
     z-index: 10;
 }
 
