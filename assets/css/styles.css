@@ -12,11 +12,11 @@ color: green;
 }
 
 a{
- color: green;
+  color: greenyellow;
 }
 a:hover{
     text-decoration: none;
-    color: greenyellow;
+    color: green;
 }
 
 .text-wrapper{
@@ -60,51 +60,55 @@ header{
 
 /***  Site Navigations styles  ****/
 /**********************************/
-.top-most-row{
+.main-site-navigation{
     position: relative;
     display: inline;
     padding-top: 10px;
     text-align: right;
 }
-.top-most-row h6{
+.main-site-navigation h6{
  display: inline;
  padding-left:10px;
- font-weight: lighter;
- font-size: 180%;
  color:green;
+  font-weight: lighter;
+  font-size: 180%;
+ line-height: 1.6em;
+ text-transform: capitalize;
 }
 
 /******  Nav for top-menu *********************/
-.top-most-row nav[class="top-menu"]{
+.main-site-navigation nav[class="top-menu"]{
     padding-left: 0;
     position:relative;
     display: inline-block;
 }
-.top-most-row nav[class="top-menu"] ul{
+.main-site-navigation nav[class="top-menu"] ul{
     position:relative;
      display: inline;
      padding-left: 5px;
     list-style:none;
 }
 
-.top-most-row nav[class="top-menu"] ul li{
+.main-site-navigation nav[class="top-menu"] ul li{
  display: inline;
  font-size: 140%;
  font-weight: lighter;
 }
 
-.top-most-row nav[class="top-menu"] ul li a{
+.main-site-navigation nav[class="top-menu"] ul li a{
  display: inline;
  padding: 5px;
  color:green;
-  font-weight: bold;
-  font-size: 120%;
+  font-weight: lighter;
+  font-size: 140%;
  line-height: 1.6em;
  text-transform: uppercase;
+ text-decoration: underline;
 }
 
-.top-most-row nav[class="top-menu"] ul li a:hover{
- color:greenyellow;
+.main-site-navigation nav[class="top-menu"] ul li a:hover{
+ text-decoration: none;
+ color:whitesmoke;
 }
 
 /****  LOGO zone **************/
@@ -131,32 +135,36 @@ header{
 
 /******  Nav for social networks *********************/
 
-.top-most-row nav[class="social-networks"]{
+.main-site-navigation nav[class="social-networks"]{
     padding-left: 0;
     position:relative;
     display: inline-block;
 }
-.top-most-row nav[class="social-networks"] ul{
+.main-site-navigation nav[class="social-networks"] ul{
     position:relative;
      display: inline;
      padding-left: 5px;
     list-style:none;
 }
 
-.top-most-row nav[class="social-networks"] ul li{
+.main-site-navigation nav[class="social-networks"] ul li{
  display: inline;
  font-size: 140%;
  font-weight: lighter;
 }
 
-.top-most-row nav[class="social-networks"] ul li a{
+.main-site-navigation nav[class="social-networks"] ul li a{
  display: inline;
  padding: 5px;
  color: green;
+ font-weight: lighter;
+ text-decoration: none;
 }
 
-.top-most-row nav[class="social-networks"] ul li a:hover{
- color:greenyellow;
+
+.main-site-navigation nav[class="social-networks"] ul li a:hover{
+ /*color:#549848;*/
+ color:whitesmoke;
 }
 
 
@@ -167,19 +175,14 @@ header{
 
 .hero-image{
   position: relative;
-  /*top: -25vh;*/
   top: -160px;
-  /*height: 265px; /* You must set a specified height */ 
   height: 365px; /* You must set a specified height */ 
   width: inherit;
-  /*background-image: url('../images/hero-image.jpg'); /* The image used */
   background-image: url('../images/banner-top.jpg'); /* The image used */
   background-color: #fff; /* Used if the image is unavailable */
   background-position: right top; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  /*border: 1px solid greenyellow;*/
-  /*z-index: 8;*/
 }
 
 /** Profile picture styles  */
@@ -367,7 +370,7 @@ text-transform: uppercase;
   /*top: -38vh;*/
   top: -38vh;
   padding-top:10px;
-  z-index: 15;
+  z-index: 10;
 }
 
 .content-display h2{
@@ -438,18 +441,21 @@ font-size: 120%;
 .footer-zone{
  position:relative;
  top: -36vh;
- margin-bottom:-35vh;
- padding-top: 5px;
+ /*margin-bottom:-35vh;*/
+ /*padding-top: 5px;*/
+ margin:0;
+ padding-bottom: 20px;
  width:100%;
  height:auto;
  background-color: #283e4a;
  color:#c7d1d8;
 }
 
+
 .description-summary{
     margin-top:0;
     padding-top: 0;
-    /*border: 1px solid #111;*/
+
 }
 
 .description-summary h5{
@@ -459,3 +465,105 @@ font-size: 120%;
 .description-summary p{
     text-align: justify;
 }
+
+
+
+.portfolios-zone{
+    position: relative;
+    display: inline-block;
+    width:100%;
+    height: auto;
+    margin: 0;
+    /*padding-left: 80px;
+    padding-right: 80px;*/
+    padding-bottom: 10px;
+    background-image: url('../images/portfo-bg.jpg'); /* The image used */
+    background-color: #fff; /* Used if the image is unavailable */
+    background-size: cover;
+    border: 1px solid red;
+}
+
+.portfolios-zone h1{
+    text-align: center;
+}
+    
+
+
+/******   CONTACT US ZONE *******/
+
+.contactus-left-zone{
+    position: relative;
+    margin-top: 20px;
+    padding-top: 10px;
+   /* border: 1px solid white;
+    border-radius: 5px;*/
+}
+
+.contactus-left-zone h2{
+text-decoration: overline;
+font-weight: lighter;
+font-size: 180%;
+}
+
+.contactus-zone{
+    position:relative;
+    width:100%;
+    height: inherit;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid white;
+    border-style: inset;
+
+}
+.contactus-zone h2{
+font-weight: lighter;
+font-size: 180%;
+}
+.contactus-zone button{
+    margin-top:5px;
+    
+    padding-bottom: 5px;
+    /*width:316px;*/
+    width:150px;
+    height:45px;
+    background-color: #dc3545;
+    color:#fff;
+    font-weight: lighter;
+    font-size: 120%;
+    border:none;
+    border-radius: 6px;
+}
+
+
+
+/****** User agreement Styles ****/
+/********************************/
+.user-agreement{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width:inherit;
+    height:36vh;
+    background-color: rgba(173, 255, 47, .9);
+    /*background-color:#ec869b;
+    background-color:#feb3c7;*/
+    z-index: 10;
+}
+
+
+.user-agreement p{
+    padding-top: 50px;
+    padding-left: 20px;
+    color:#121210;
+    /*text-shadow:5px 5px 10px white;*/
+    font-weight: lighter;
+    font-size: 120%;
+    line-height:1.6em;
+}
+   
+   
+
+/******   END CONTACT ZONE *******/
