@@ -12,11 +12,12 @@ color: green;
 }
 
 a{
-  color: greenyellow;
+  color: #121210;
 }
 a:hover{
     text-decoration: none;
-    color: green;
+    /*color: green;*/
+    color:darkred;
 }
 
 .text-wrapper{
@@ -69,7 +70,7 @@ header{
 .main-site-navigation h6{
  display: inline;
  padding-left:10px;
- color:green;
+ color:#121210;
   font-weight: lighter;
   font-size: 180%;
  line-height: 1.6em;
@@ -98,17 +99,17 @@ header{
 .main-site-navigation nav[class="top-menu"] ul li a{
  display: inline;
  padding: 5px;
- color:green;
+ color: #121210;
   font-weight: lighter;
   font-size: 140%;
  line-height: 1.6em;
  text-transform: uppercase;
- text-decoration: underline;
+ text-decoration: none;
 }
 
 .main-site-navigation nav[class="top-menu"] ul li a:hover{
  text-decoration: none;
- color:whitesmoke;
+ color:darkred;
 }
 
 /****  LOGO zone **************/
@@ -156,7 +157,7 @@ header{
 .main-site-navigation nav[class="social-networks"] ul li a{
  display: inline;
  padding: 5px;
- color: green;
+ color: #121210;
  font-weight: lighter;
  text-decoration: none;
 }
@@ -164,7 +165,7 @@ header{
 
 .main-site-navigation nav[class="social-networks"] ul li a:hover{
  /*color:#549848;*/
- color:whitesmoke;
+ color:darkred;
 }
 
 
@@ -452,6 +453,9 @@ font-size: 120%;
  color:#c7d1d8;
 }
 
+.footer-zone h2{
+ 
+}
 
 .description-summary{
     margin-top:0;
@@ -502,6 +506,12 @@ font-size: 120%;
 text-decoration: overline;
 font-weight: lighter;
 font-size: 180%;
+color: whitesmoke;
+}
+
+.contactus-left-zone h2:hover{
+
+color:whitesmoke;
 }
 
 .contactus-zone{
@@ -520,6 +530,7 @@ font-size: 180%;
 .contactus-zone h2{
 font-weight: lighter;
 font-size: 180%;
+text-transform: uppercase;
 }
 
 .contactus-zone button{
@@ -530,11 +541,14 @@ font-size: 180%;
     width:150px;
     height:45px;
     background-color: #dc3545;
-    color:#fff;
+    color:whitesmoke;
     font-weight: lighter;
     font-size: 120%;
     border:none;
     border-radius: 6px;
+}
+.contactus-zone button:hover{
+    color:whitesmoke;
 }
 
 
@@ -559,7 +573,6 @@ font-size: 180%;
     padding-top: 50px;
     padding-left: 20px;
     color:#121210;
-    /*text-shadow:5px 5px 10px white;*/
     font-weight: lighter;
     font-size: 120%;
     line-height:1.6em;
