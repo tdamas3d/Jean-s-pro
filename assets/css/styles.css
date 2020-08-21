@@ -171,8 +171,12 @@ nav ul li{
 }
 nav ul li a{
    padding-right: 5px;
-  color: #121210;
+   padding-top: 0px;
+   color: #121210;
    color:#20c997;
+   font-size:1.3rem;
+   font-weight: bold;
+   line-height: 1.8rem;
  text-decoration: none;
 }
 
@@ -230,12 +234,11 @@ n   text-align:center;
 .home-image h2{
  position:relative;
  margin: 0 auto;
- /*text-align: center;*/
  padding-top: 4px;
  padding-bottom: 5px;
  line-height: 1.8rem;
- /*font-weight: bold;
- font-size: 1.9rem;
+ font-weight: bold;
+ /*font-size: 1.9rem;
  line-height: 1.9rem;*/
 }
 /****  Header styles ends ***/
@@ -248,8 +251,6 @@ n   text-align:center;
     margin:0;
     padding:0;
     border:0;
-    /*padding-left: 40px;
-    padding-right: 40px;*/
 }
 .about-me{
  position: relative;
@@ -259,23 +260,27 @@ n   text-align:center;
  width:auto;
 }
 
+.about-me h2{
+position:relative;
+    padding-top: 20px;
+    padding-left: 0px;
+ font-weight: bold;
+ font-size: 1.8rem;
+ line-height: 1.9rem;
+ text-transform: uppercase;
+}
+
+
 .short-desc{
-    /*padding: 40px;*/
-    /*padding-right: 100px;
-    padding-bottom: 100px;*/
     position:relative;
-    margin:0;
-    padding-left:60px;
-    padding-right:40px;
-    padding-top:20px;
-    padding-bottom:10px;
     margin-bottom:20px;
-    width:auto;
+    padding: 20px 40px 10px 60px;
+     width:auto;
     font-weight:lighter;
-    background-color:darkred ;
-    font-size: 1.5rem;
-    /*line-height: 2.2rem;*/
-    color: whitesmoke;
+    background-color:#f1c9c9;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: inherit;
 }
 
 .short-cv{
@@ -291,28 +296,40 @@ n   text-align:center;
 
 
 .space-free{
-  padding-left: 40px;
-  padding-top: 55px;
+  padding-left: 60px;
+  padding-top: 35px;
   padding-bottom: 35px;
-  text-transform: uppercase;
 }
-
-#welcome-st{
-    padding-top:5px;
- padding-bottom: 5px;
- /*font-weight: bold;
- font-size: 1.9rem;
- line-height: 1.9rem;
- color:green;
-}*/
-
-
-
-.about-me h2{
-    position:relative;
-    padding: 20px 40px 20px 40px;
+.spacer-text{
  font-weight: bold;
  font-size: 1.8rem;
  line-height: 1.9rem;
  text-transform: uppercase;
+}
+
+#welcome-st{
+    padding-top:15px;
+ padding-bottom: 25px;
+ text-decoration: line-through;
+ font-weight: lighter;
+ font-size: 2.9rem;
+ line-height: 1.6rem;
+ color:green;
+}
+
+/**  css style for image in the short cv...*********/
+.graphics{
+  position:relative;
+  padding-right:30px;
+  display:block;
+  width:300px;
+  height:inherit;
+  border:1px solid red;
+}
+
+.graphics img{
+    position:relative;
+    display:inline-block;
+    width:300px;
+  height:auto;
 }
