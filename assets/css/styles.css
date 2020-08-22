@@ -22,55 +22,25 @@ background-color: #fafcfa;
   background-size: cover;
 }
 
-/*
-.container-fluid{
- margin: 0;
- padding:0;
-}*/
-/*
-a{
-  color: #121210;
-}
-a:hover{
-    text-decoration: none;
-    color:darkred;
-}
-
-.text-wrapper{
-    overflow-wrap:break-word;
-}
-
-.text-center{
-    text-align: center;
-}
-
-.btn-link{
-    color:darkred;
-}
-*/
-
 /****   Header styles ****/
 header{
     position:relative;
     margin:0;
     padding:0;
-    padding-bottom: 10px;
     width:auto;
     height:90vh;
   /*background-image: url('../images/header-bg.jpg');*/
   background-color: #d4eefb;
+  background-color:greenyellow;
   background-position: top; 
-  /*background-repeat: no-repeat;
-  background-size: cover;*/
-  /*border-bottom: 1px solid whitesmoke;*/
   z-index:14;
 }
 /****  nav styles ****************/
 .top-navigation-zone{
     width:auto;
     height: 28vh;
-/*border-bottom: 1px solid #20c997;*/
-/*box-shadow:20px 20px 50px 10px pink;*/
+    padding-left:35px;
+    padding-right:35px;
 }
 
 /*******        logo zone css style ***************/
@@ -78,14 +48,14 @@ header{
  position: relative;
  margin: 0 auto;
  text-align: center;
- border: 1px solid red;
+ /*border: 1px solid red;*/
 }
 
 .logo h1{
 padding-top:10px;
 margin:0 auto;
- color:darkred;
  color:#121210;
+ color:#20c997;
  font-size: 1.1rem;
  font-weight: lighter;
  line-height: 1.6rem;
@@ -93,68 +63,27 @@ margin:0 auto;
  text-align: center;
 }
 
-/*******        main-nav zone css style ***************/
-/*
-.main-nav{
- position: relative;
- margin:0 auto;
- padding-top:10px;
- text-align: center;
- color:#121210;
- font-weight: lighter;
- font-size: 1.2rem;
- line-height: 1.6rem;
- text-transform: capitalize;
-}
-*/
-
-/*******        social-links zone css style ***************/
-/*
-.social-links{
- position: relative;
- margin: 0 auto;
-  display:inline;
- text-align: center;
- padding-top:10px;
-  font-size: 1.2rem;
- line-height: 1.6rem;
-}  
-*/
-
-/*
-.social-links h6{
-position: relative;
-  display:inline-block;
-   color:#121210;
- font-weight: lighter;
- font-size: 1.2rem;
- line-height: 1.6rem;
- text-transform: capitalize;
-} */
-
-
-
-.top-navigation-zone h6{
-position: relative;
-margin:0 auto;
-  display:inline-block;
-   color:#121210;
- font-weight: lighter;
- font-size: 1.2rem;
- line-height: 1.6rem;
- text-transform: capitalize;
-}
-
+/***  styles for links *****/
 .top-nav-links{
     position: relative;
     padding-top:6px;
     display: block;
     margin:0 auto;
-    /*padding-right: 35px;*/
     text-align: center;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    line-height: 1.6rem;
+     font-size: 1.1rem;
+ font-weight: lighter;
+ line-height: 1.6rem; 
+}
+
+.top-nav-links h6{
+position: relative;
+margin:0 auto;
+  display:inline-block;
+   color:#121210;
+  font-size: 1.1rem;
+ font-weight: lighter;
+ line-height: 1.6rem;
+ text-transform: capitalize;
 }
 
 nav{
@@ -174,9 +103,9 @@ nav ul li a{
    padding-top: 0px;
    color: #121210;
    color:#20c997;
-   font-size:1.3rem;
-   font-weight: bold;
-   line-height: 1.8rem;
+    font-size: 1.1rem;
+ font-weight: lighter;
+ line-height: 1.6rem;
  text-decoration: none;
 }
 
@@ -186,6 +115,14 @@ nav ul li a:hover{
 }
 
 /*****************  styles for banner zone i.e. for big logo and home image ***************/
+
+
+.banner-zone{
+ position:relative;
+ padding-left: 10px;
+ padding-right:60px;
+
+}
 /*** BIG LOGO zone css styles ******************/
 .big-logo{
 position: relative;
@@ -199,9 +136,10 @@ height: 48vh;
 position:relative;
 top:130px;
 font-size: 3.5rem;
-font-weight: bold;
+font-weight: lighter;
 text-transform: capitalize;
 color:#121210;
+text-align:center;
 }
 
 /*** HOME IMAGE zone css styles ******************/
@@ -210,25 +148,26 @@ color:#121210;
     margin: 0 auto;
     display: inline-block;
     background-color: inherit;
+    text-align: center;
 }
 
 
 .home-image img{
   position: relative;
   display: inline;
-  width:330px;
+  width:auto;
   height:330px;
   text-align: center;
 }
-.home-image p{
+.home-image h6{
     position:relative;
     margin: 0 auto;
     display:block;
     padding-top: 5px;
-    font-weight:lighter;
-    font-size: 1.5rem;
-    line-height: 1.6rem;
-n   text-align:center;
+    font-size: 1.1rem;
+     font-weight: lighter;
+ line-height: 1.6rem;
+     text-align:center;
 }
 
 .home-image h2{
@@ -238,8 +177,7 @@ n   text-align:center;
  padding-bottom: 5px;
  line-height: 1.8rem;
  font-weight: bold;
- /*font-size: 1.9rem;
- line-height: 1.9rem;*/
+ text-align:center;
 }
 /****  Header styles ends ***/
 
@@ -249,87 +187,90 @@ n   text-align:center;
 .content-section{
     position: relative;
     margin:0;
-    padding:0;
     border:0;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 .about-me{
  position: relative;
- margin: 0;
- padding:0;
- border:0;
+ margin: inherit;
+ padding:inherit;
  width:auto;
 }
 
 .about-me h2{
 position:relative;
-    padding-top: 20px;
-    padding-left: 0px;
- font-weight: bold;
- font-size: 1.8rem;
- line-height: 1.9rem;
- text-transform: uppercase;
+font-weight: bold;
+font-size: 1.8rem;
+line-height: 1.9rem;
+text-transform: uppercase;
 }
 
 
 .short-desc{
     position:relative;
-    margin-bottom:20px;
-    padding: 20px 40px 10px 60px;
+    margin:0 auto;
+    padding: 50px;
      width:auto;
-    font-weight:lighter;
     background-color:#f1c9c9;
-    font-size: 1.8rem;
-    line-height: 2.2rem;
-    color: inherit;
+    text-align: justify;
+    /*border:1px solid white;*/
+}
+
+.short-desc p{
+    /*padding-top:20px;*/
+    font-size: 1.1rem;
+    font-weight: lighter;
+    line-height: 1.9rem;
+    color: #121210;
 }
 
 .short-cv{
  position:relative;
- padding-left:40px;
-  padding-right:40px;
-
+ padding:35px;
 }
 
 .short-cv h2{
+    position:relative;
+    padding: 10px 0 10px 0;
+    font-size: 2.1rem;
+    font-weight: lighter;
+    line-height: 1.8rem;
+    color: #121210;
  text-transform: uppercase;
 }
 
 
 .space-free{
-  padding-left: 60px;
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-.spacer-text{
- font-weight: bold;
- font-size: 1.8rem;
- line-height: 1.9rem;
- text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-#welcome-st{
-    padding-top:15px;
- padding-bottom: 25px;
- text-decoration: line-through;
- font-weight: lighter;
- font-size: 2.9rem;
- line-height: 1.6rem;
- color:green;
+.space-free h2{
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+font-size: 2.2rem;
+    font-weight: lighter;
+    line-height: 1.8rem;
+    color: #121210;
+ text-transform: uppercase;
 }
 
 /**  css style for image in the short cv...*********/
 .graphics{
   position:relative;
-  padding-right:30px;
-  display:block;
-  width:300px;
-  height:inherit;
-  border:1px solid red;
+  padding-right:50px;
+  display:inline-block;
+  width:auto;
+  height:auto;
 }
 
 .graphics img{
     position:relative;
-    display:inline-block;
-    width:300px;
-  height:auto;
+    margin:5px;
+    padding:5px;
+    display:inline;
+    width:400px;
+    height:250px;
 }
