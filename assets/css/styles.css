@@ -41,6 +41,7 @@ header{
 }
 /****  nav styles ****************/
 .top-navigation-zone{
+    position:relative;
     width:auto;
     height: 28vh;
     padding-left:35px;
@@ -58,19 +59,21 @@ header{
 .logo h1{
 padding-top:10px;
 margin:0 auto;
- color:#121210;
- color:#20c997;
- font-size: 1.4rem;
+  color:#20c997;
+  color:#36a707;
+  color:#121210;
+ font-size: 1.8rem;
  font-weight: lighter;
- line-height: 1.6rem;
+ line-height: 1.8rem;
  text-transform: capitalize;
  text-align: center;
+ text-decoration: overline;
 }
 
 /***  styles for links *****/
 .top-nav-links{
     position: relative;
-    padding-top:6px;
+    padding-top:10px;
     display: block;
     margin:0 auto;
     text-align: center; 
@@ -78,13 +81,13 @@ margin:0 auto;
 
 .top-nav-links h6{
 position: relative;
-margin:0 auto;
   display:inline-block;
    color:#121210;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
  font-weight: lighter;
- line-height: 1.6rem;
+ line-height: 1.8rem;
  text-transform: capitalize;
+ text-decoration: overline;
 }
 
 nav{
@@ -104,6 +107,7 @@ nav ul li a{
    padding-top: 0px;
    color: #121210;
    color:#20c997;
+   color:#36a707;
     font-size: 1.4rem;
  font-weight: lighter;
  line-height: 1.6rem;
@@ -137,7 +141,7 @@ height: 48vh;
 position:relative;
 top:130px;
 font-size: 3.5rem;
-font-weight: lighter;
+font-weight: bold;
 text-transform: capitalize;
 color:#121210;
 text-align:center;
@@ -150,7 +154,7 @@ text-align:center;
     display: inline-block;
     background-color: inherit;
     text-align: center;
-    border: 1px solid whitesmoke;
+    border: 1px solid #4b4b8f;
 }
 
 
@@ -165,8 +169,8 @@ text-align:center;
     position:relative;
     margin: 0 auto;
     display:block;
-    padding-top: 5px;
-    font-size: 1.1rem;
+    padding-top: 10px;
+    font-size: 1.3rem;
      font-weight: lighter;
  line-height: 1.6rem;
      text-align:center;
@@ -179,7 +183,7 @@ text-align:center;
  padding-bottom: 5px;
  font-size: 2.9rem;
  line-height: 1.8rem;
- font-weight: lighter;
+ font-weight: bold;
  text-align:center;
 }
 
@@ -223,15 +227,15 @@ text-align:center;
 .other-resources ul li a{
     position:relative;
     display: inline;
- font-size: 1.2rem;
+ font-size: 1.8rem;
  font-weight: lighter;
- line-height: 1.6rem;
+ line-height: 1.8rem;
  color: #121210;
  text-decoration: none;
 }
 
 .other-resources ul li a:hover{
- color:#20c997;
+ color:#36a707;
  text-decoration: none;
 }
 
@@ -318,6 +322,7 @@ text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: lighter;
     line-height: 1.5rem;
+    text-align: justify;
     color: #121210;
     color:#656560;
     color:#2d482b;
@@ -359,10 +364,11 @@ font-size: 2.2rem;
     height:300px;
 }
 
-.competences{
+.link-buttons{
     position:relative;
-    margin-left: 10px;
-    margin-top:2px;
+    /*margin-left: 10px;
+    margin-top:2px;*/
+    margin:0 auto;
     display: block;
     padding:10px;
     width: 200px;
@@ -371,6 +377,106 @@ font-size: 2.2rem;
     text-transform: uppercase;
     border-radius: 4px;
     background-color:#dc3545;
-    color: white;
+    color:#121210;
 
+}
+
+.competences{
+    background-color:#a97b7f;
+    margin-top: 90px;
+}
+
+
+.projects{
+    background-color:#36a707;
+}
+
+.cv{
+   background-color:greenyellow; 
+}
+
+/**** styles for other pages ----**/
+
+/*** competences page styles ...***********/
+
+
+.competences{
+ position:relative;
+ background-color: inherit;
+    /* top:170px;*/
+ padding:70px;
+}
+
+.competences h2{
+    position:relative;
+    padding: 0px 0 10px 0;
+    font-size: 2.1rem;
+    font-weight: lighter;
+    line-height: 1.8rem;
+    color: #121210;
+ text-transform: uppercase;
+}
+
+.competences p{
+    position:relative;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    line-height: 1.8rem;
+    text-align: justify;
+    color:#121210;
+}
+
+
+.competences h3{
+
+ position:relative;
+    padding: 10px 0 10px 0;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
+    color: #121210;
+ text-transform: uppercase;
+
+}
+
+.competences h4{
+
+ position:relative;
+    padding: 10px 0 10px 0;
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8rem;
+    color:#6aa90a;
+ text-transform: capitalize;
+
+}
+
+.competences .graphics img{
+    position:relative;
+    margin: 0 auto;
+    display: inline;
+    text-align:center;
+    width:300px;
+    height:250px;
+    border-radius: 5px;
+}
+
+.font-awasome-icons-list ul {
+  list-style: none;
+  padding: 0;
+}
+.font-awasome-icons-list li {
+  padding-left: 1.3em;
+  /*display:inline;*/
+  font-size:1.8rem;
+  font-weight: lighter;
+  line-height: 1.8rem;
+  color:#121210;
+}
+.font-awasome-icons-list li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
 }
