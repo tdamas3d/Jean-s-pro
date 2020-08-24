@@ -20,14 +20,31 @@ background-image: url('../images/content-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
+/***  default style for links *****/
+
+a{
+    color:#121210;
+    text-decoration: none;
+}
+
+a:hover{
+    color:white;
+    text-decoration: none;
+    /*font-size: 100%;
+    font-weight: lighter;
+    line-height: 1.6;*/
+}
+
+
+
 
 /****   Header styles ****/
 header{
     position:relative;
-    margin:0;
     padding:0;
+    /*margin-bottom: 20px;*/
     width:auto;
-    height:90vh;
+    height:100vh;
   /*background-image: url('../images/header-bg.jpg');*/
   background-color: #d4eefb;
   background-color:greenyellow;
@@ -44,15 +61,15 @@ header{
     position:relative;
     width:auto;
     height: 28vh;
-    padding-left:35px;
-    padding-right:35px;
+    /*padding-left:35px;
+    padding-right:35px;*/
 }
 
 /*******        logo zone css style ***************/
 .logo{
  position: relative;
  margin: 0 auto;
- text-align: center;
+ text-align: left;
  /*border: 1px solid red;*/
 }
 
@@ -66,7 +83,7 @@ margin:0 auto;
  font-weight: lighter;
  line-height: 1.8rem;
  text-transform: capitalize;
- text-align: center;
+ text-align: left;
  text-decoration: overline;
 }
 
@@ -103,6 +120,7 @@ nav ul li{
  display: inline;
 }
 nav ul li a{
+   padding-left: 5px;
    padding-right: 5px;
    padding-top: 0px;
    color: #121210;
@@ -124,66 +142,75 @@ nav ul li a:hover{
 
 .banner-zone{
  position:relative;
- padding-left: 10px;
- padding-right:60px;
-
+ padding:0;
+ margin:0;
+ display: flex;
 }
+
 /*** BIG LOGO zone css styles ******************/
 .big-logo{
 position: relative;
 margin:0 auto;
+padding:0;
 text-align: center;
-width: inherit;
+vertical-align: middle;
+width: 100%;
 height: 48vh;
 }
 
 .big-logo h1{
 position:relative;
-top:130px;
+margin:0;
+padding:0;
+top:20vh;
 font-size: 3.5rem;
-font-weight: bold;
+font-weight: lighter;
 text-transform: capitalize;
 color:#121210;
 text-align:center;
+vertical-align: middle;
+line-height: 1.8rem;
 }
 
 /*** HOME IMAGE zone css styles ******************/
 .home-image{
     position: relative;
-    margin: 0 auto;
-    display: inline-block;
+    /*top:8vh;*/
+    padding:0;
+    margin: 0px;
+    width:inherit;
+    height: inherit;
+    background-color: inherit;
+}
+
+.home-image-content{
+    position: relative;
+    top:8vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    width:auto;
+    height: 40vh;
     background-color: inherit;
     text-align: center;
     border: 1px solid #4b4b8f;
+    border-radius: 5px;
 }
 
 
-.home-image img{
-  position: relative;
-  display: inline;
-  width:auto;
-  height:330px;
-  text-align: center;
-}
-.home-image h6{
-    position:relative;
-    margin: 0 auto;
-    display:block;
-    padding-top: 10px;
-    font-size: 1.3rem;
-     font-weight: lighter;
- line-height: 1.6rem;
-     text-align:center;
-}
 
-.home-image h2{
- position:relative;
- margin: 0 auto;
- padding-top: 4px;
- padding-bottom: 5px;
- font-size: 2.9rem;
+.home-image-content h2{
+ padding-top: 4vh;
+ font-size: 2.6rem;
  line-height: 1.8rem;
  font-weight: bold;
+ text-align:center;
+}
+
+.home-image-content h6{
+ padding-top: 1vh;
+ font-size: 1.8rem;
+ line-height: 1.8rem;
+ font-weight: lighter;
  text-align:center;
 }
 
@@ -192,46 +219,38 @@ text-align:center;
 
 .other-resources{
     position: relative;
-    top:70px;
-    display: block;
+    margin:0;
+    top: 8vh;
+    display: inline-flex;
     width: auto;
     height: auto;
     font-size: 1.4rem;
     font-weight: lighter;
     line-height: 1.6rem;
-    text-align:center;
-    /*border: 1px solid #20c997;*/
-}
-
-
-.other-resources h6{
-    position: relative;
-    display: inline;
-    margin:0 auto;
-    padding-bottom: 15px;
 }
 
 .other-resources ul{
+    position:relative;
+    margin:0;
+    padding:0;
     list-style:none;
 }
 
 
 .other-resources ul li{
     position:relative;
-    margin:0 auto;
-    padding: 5px;
-display: inline;
-text-align:center;
+    margin:0;
+    padding:10px;
+    display: inline;
 }
 
 .other-resources ul li a{
     position:relative;
-    display: inline;
- font-size: 1.8rem;
- font-weight: lighter;
- line-height: 1.8rem;
- color: #121210;
- text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
+    color: #121210;
+    text-decoration: none;
 }
 
 .other-resources ul li a:hover{
@@ -251,15 +270,15 @@ text-align:center;
 
 .content-section{
     position: relative;
-    margin:0;
+    top:5vh;
     border:0;
-    padding-left: 35px;
-    padding-right: 35px;
+   /* padding-left: 35px;
+    padding-right: 35px;*/
 }
 .about-me{
  position: relative;
- margin: inherit;
- padding:inherit;
+ /*margin: inherit;
+ padding:inherit;*/
  width:auto;
 }
 
@@ -274,32 +293,39 @@ text-transform: uppercase;
 
 .short-desc{
     position:relative;
-    margin:0 auto;
-    padding: 50px;
-     width:auto;
-     display:inline-block;
+    /*padding: 50px;*/
+     width:100%;
     background-color:#fff;
     background-color:#f1c9c9;
     background-color: #ded9d9;
     text-align: justify;
-    /*border:1px solid white;*/
 }
 
 .short-desc p{
     position:relative;
-    display:inline;
-    font-size: 1.2rem;
+    padding-left:35px;
+    padding-right:35px;
+    font-size: 1.6rem;
     font-weight: lighter;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     color: #121210;
     color:#656560;
     color:#2d482b;
 }
 
-.short-desc img{
+
+.profile-image{
+    position:relative;
+    margin:0;
+    padding-left: 50px;
+     width:100%;
+}
+.profile-image img{
  position: relative;
- display:inline;
- border-radius: 5px;
+ margin: 0 auto;
+ width:200px;
+ height:200px;
+ text-align: center;
 }
 
 .short-cv{
@@ -319,9 +345,9 @@ text-transform: uppercase;
 
 .short-cv p{
     position:relative;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: lighter;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     text-align: justify;
     color: #121210;
     color:#656560;
@@ -330,27 +356,16 @@ text-transform: uppercase;
 
 
 .space-free{
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.space-free h2{
-    position: relative;
-    padding-left: 50px;
-    padding-right: 50px;
-font-size: 2.2rem;
-    font-weight: lighter;
-    line-height: 1.8rem;
-    color: #121210;
- text-transform: uppercase;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 /**  css style for image in the short cv...*********/
 .graphics{
   position:relative;
   margin-bottom: 5px;
-  padding-right:50px;
-  display:inline-block;
+  /*padding-right:50px;*/
+  display:inline;
   width:auto;
   height:auto;
 }
@@ -366,26 +381,34 @@ font-size: 2.2rem;
 
 .link-buttons{
     position:relative;
-    /*margin-left: 10px;
-    margin-top:2px;*/
-    margin:0 auto;
-    display: block;
+    margin-left: 10px;
+    margin-top:2px;
+    display: inline;
     padding:10px;
     width: 200px;
     min-height:50px;
-    text-align: center;
+    /*text-align: center;*/
     text-transform: uppercase;
     border-radius: 4px;
-    background-color:#dc3545;
+    /*background-color:#dc3545;*/
     color:#121210;
 
 }
+.link-buttons,#competences{
+ background-color:#a97b7f;
+}
 
+.link-buttons,#projects{
+ background-color: greenyellow;
+}
+.link-buttons,#cv{
+ background-color:#120189;
+}
+/*
 .competences{
     background-color:#a97b7f;
     margin-top: 90px;
 }
-
 
 .projects{
     background-color:#36a707;
@@ -394,6 +417,8 @@ font-size: 2.2rem;
 .cv{
    background-color:greenyellow; 
 }
+
+*/
 
 /**** styles for other pages ----**/
 
