@@ -15,7 +15,8 @@ font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Ne
 margin:0;
 padding:0;
 color: #121210;
-background-image: url('../images/content-bg.jpg');
+/*background-image: url('../images/content-bg.jpg');*/
+background-color: #c6c9d2;
   background-position: top; 
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,7 +29,7 @@ a{
 }
 
 a:hover{
-    color:darkred;
+    color:#121210;
     text-decoration: none;
     /*font-size: 100%;
     font-weight: lighter;
@@ -46,8 +47,9 @@ header{
     /*margin-bottom: 20px;*/
     width:auto;
     height:95vh;
-  background-image: url('../images/content-bg.jpg');
-  background-color:whitesmoke;
+  /*background-image: url('../images/content-bg.jpg');
+  background-image: url('../images/bg-header.jpg');*/
+  background-color:#f3eafb;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top; 
@@ -74,6 +76,7 @@ header{
 
 .logo h1{
 padding-top:10px;
+padding-left:35px;
 margin:0 auto;
   color:#20c997;
   color:#36a707;
@@ -161,14 +164,14 @@ height: 48vh;
 position:relative;
 margin:0;
 padding:0;
-top:20vh;
+top:23vh;
 font-size: 3.5rem;
 font-weight: lighter;
+line-height: 1.8rem;
 text-transform: capitalize;
 color:#121210;
 text-align:center;
 vertical-align: middle;
-line-height: 1.8rem;
 }
 
 /*** HOME IMAGE zone css styles ******************/
@@ -199,9 +202,9 @@ line-height: 1.8rem;
 
 .home-image-content h2{
  padding-top: 4vh;
- font-size: 2.6rem;
+ font-size: 3.5rem;
  line-height: 1.8rem;
- font-weight: bold;
+ font-weight: lighter;
  text-align:center;
 }
 
@@ -273,17 +276,13 @@ line-height: 1.8rem;
     padding-top: 15vh;
     border:0;
     display: block;
-   /* padding-left: 35px;
-    padding-right: 35px;*/
 }
-.about-me{
+.about{
  position: relative;
- /*margin: inherit;
- padding:inherit;*/
  display:block;
 }
 
-.about-me-title {
+.about-title {
     position:relative;
     padding-left:40px;
 font-size: 2.1rem;
@@ -294,7 +293,7 @@ font-size: 2.1rem;
 }
 
 
-.short-desc{
+.about-short-text{
     position:relative;
     /*padding: 50px;*/
      width:100%;
@@ -304,8 +303,15 @@ font-size: 2.1rem;
     text-align: justify;
 }
 
-.short-desc p{
+.special-padding{
+    position: relative;
+    padding-top: 40px;
+}
+
+.about-short-text p{
     position:relative;
+    padding-top:25px;
+    padding-bottom:25px;
     padding-left:35px;
     padding-right:35px;
     font-size: 1.6rem;
@@ -332,12 +338,12 @@ font-size: 2.1rem;
  text-align: center;
 }
 
-.short-cv{
+.short-summary{
  position:relative;
  padding:35px;
 }
 
-.short-cv h2{
+.short-summary h2{
     position:relative;
     padding: 10px 0 10px 0;
     font-size: 2.1rem;
@@ -347,7 +353,7 @@ font-size: 2.1rem;
  text-transform: uppercase;
 }
 
-.short-cv p{
+.short-summary p{
     position:relative;
     font-size: 1.6rem;
     font-weight: lighter;
@@ -376,11 +382,12 @@ font-size: 2.1rem;
 
 .graphics img{
     position:relative;
-    margin:5px;
-    padding:5px;
+    /*margin:5px;
+    padding:5px;*/
     display:inline;
-    width:475px;
+    width:535px;
     height:300px;
+    border: 1px solid whitesmoke;
 }
 
 .link-buttons{
@@ -389,40 +396,43 @@ font-size: 2.1rem;
     margin-top:2px;
     display: inline;
     padding:10px;
-    width: 200px;
+   /* min-width: 350px;
     min-height:50px;
     /*text-align: center;*/
     text-transform: uppercase;
     border-radius: 4px;
-    /*background-color:#dc3545;*/
-    color:#121210;
-
+    background-color:#dc3545;
+    color:#fff;
 }
+
+/**** link buttons initial state***/
 .link-buttons,#competences{
- background-color:#a97b7f;
+ /*background-color:#a97b7f;*/
+ background-color: #d0979c;
 }
-
 .link-buttons,#projects{
- background-color: greenyellow;
+ background-color:#9ab9a1;
 }
 .link-buttons,#cv{
- background-color:#120189;
+ background-color:#969891;
 }
-/*
-.competences{
-    background-color:#a97b7f;
-    margin-top: 90px;
+/***  Link buttons on hover****/
+
+.link-buttons,#competences:hover{
+ /*background-color:#a97b7f;*/
+ background-color: #e0adb2;
+ color:#fff;
 }
 
-.projects{
-    background-color:#36a707;
+.link-buttons,#projects:hover{
+ background-color:#94dba4;
+ color:#fff;
+}
+.link-buttons,#cv:hover{
+ background-color:#afb69e;
+ color:#fff;
 }
 
-.cv{
-   background-color:greenyellow; 
-}
-
-*/
 
 /**** styles for other pages ----**/
 
@@ -480,15 +490,41 @@ font-size: 2.1rem;
 
 }
 
-.competences .graphics img{
+
+/*** images styles in the competences page *********/
+
+.competences img{
     position:relative;
-    margin: 0 auto;
+    margin-bottom:25px;
     display: inline;
-    text-align:center;
-    width:300px;
-    height:250px;
-    border-radius: 5px;
+    width:500px;
+    height:150px;
 }
+
+.projects{
+    position:relative;
+}
+
+
+/***    Images style in the page for projects   ***********/
+/** style for projects thumbnails images ***********/
+
+.projects img{
+    position:relative;
+    /*margin-bottom:25px;*/
+    padding-top:25px;
+    display: inline;
+    max-width:400px;
+    max-height:200px;
+
+}
+
+.projects h2{
+    position:relative;
+    padding-top:25px;
+}
+
+
 
 .font-awasome-icons-list ul {
   list-style: none;
@@ -509,3 +545,131 @@ font-size: 2.1rem;
   margin-left: -1.3em; /* same as padding-left set on li */
   width: 1.3em; /* same as padding-left set on li */
 }
+
+
+
+/*********************************************************/
+/****************** FOOTER ZONE MENUS ********************/
+/*********************************************************/
+.footer-zone{
+ position:relative;
+ margin:0;
+ padding-left: 35px;
+ padding-right:35px;
+ padding-bottom: 20px;
+ width:100%;
+ height:auto;
+ background-color: rgba(40, 62, 74, .5);
+ color:#c7d1d8;
+}
+
+.portfolios-zone{
+    position: relative;
+    display: inline-block;
+    width:100%;
+    height: auto;
+    margin: 0;
+    padding-bottom: 10px;
+    background-image: url('../images/portfo-bg.jpg'); /* The image used */
+    background-color:inherit; /* Used if the image is unavailable */
+    background-size: cover;
+}
+
+.portfolios-zone h1{
+    text-align: center;
+}
+    
+/******   CONTACT US ZONE *******/
+
+.contactus-left-zone{
+    position: relative;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.contactus-left-zone h2{
+text-decoration: overline;
+font-weight: lighter;
+font-size: 180%;
+color: whitesmoke;
+}
+
+.contactus-left-zone h2:hover{
+color:whitesmoke;
+}
+
+.contactus-zone{
+    position:relative;
+    width:100%;
+    height: inherit;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /*border: 1px solid whitesmoke;*/
+}
+.contactus-zone h2{
+font-weight: lighter;
+font-size: 180%;
+text-transform: uppercase;
+}
+
+
+
+.contactus-left-zone .content-left h2{
+ background-color:#c36269
+}
+
+.contactus-left-zone .content-left h2:hover{
+   background-color:#b57277;
+}
+
+
+
+
+.contactus-zone button{
+    margin-top:5px;
+    padding-bottom: 5px;
+    width:150px;
+    height:45px;
+    background-color:#c36269;
+    color:whitesmoke;
+    font-weight: lighter;
+    font-size: 120%;
+    border:none;
+    border-radius: 6px;
+}
+.contactus-zone button:hover{
+    background-color:#b57277;
+    color:whitesmoke;
+}
+
+/****** User agreement Styles ****/
+/********************************/
+.user-agreement{
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    height:100px;
+    background-color: rgba(245, 245, 245, .6);
+    /*box-shadow:20px 20px 50px 10px #121210;*/
+    /*border-bottom: 1px solid white;*/
+    z-index: 13;
+}
+
+
+.user-agreement p{
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    /*color:#121210;*/
+    color:white;
+    text-align:center;
+    font-weight: lighter;
+    font-size: 90%;
+    line-height:1.2em;
+}
+   
+   /******   END CONTACT ZONE *******/
