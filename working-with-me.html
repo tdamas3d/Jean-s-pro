@@ -34,8 +34,8 @@
                 <nav>
                      <ul>
                       <li><a href="/"><i class="fas fa-home fa-md"></i> Home</a></li>
-                      <li><a href="#about"><i class="fas fa-info-circle fa-md"></i> About</a></li>
-                      <li><a href="#contactus" target="_self"><i class="fab fa-meetup fa-md"></i> Contact</a></li>
+                      <li><a href="index.html#about"><i class="fas fa-info-circle fa-md"></i> About</a></li>
+                      <li><a href="index.html#contactus" target="_self"><i class="fab fa-meetup fa-md"></i> Contact</a></li>
                      </ul>
                 </nav> 
                          
@@ -98,31 +98,35 @@
 
 <div id="working-with-me" class="row about">
      <div class="col-md-12">
-
      <div class="row">
-      <div class="col-md-12 space-free">
-       <h2 class="about-title">Working with me</h2>
-      </div>
+      <div class="col-md-6 space-free">
+       <h2 class="about-title">Working with You</h2>
+            <!--left div form elements-->
+ <h1> Thank you for choosing us! We are excited! </h1>
+
+<form method="POST" action="mailto:tdamas3d@gmail.com" enctype="multipart/form-data">
+    <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea2">Work Description</label>
+      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3">Give us a brief description of what you expect from us in this partnership.</textarea>
      </div>
-
- <h1> We are excited to work with you!</h1>
-
-<form action="thankyou.html">
-<label for="email">Your Email:</label>
-<input type="email" name="partner_email" id="partner_email" placeholder="Enter your email" required><br><br>
-<label for="expectations">Work Description:</label><br>
-<textarea id="work-description" name="work-description" rows="4" cols="50">
-  Give a brief description of what you expect from us in this partnership.
-  </textarea>
-  <br><br>
-  <input type="submit" value="Submit">
+  <button type="button" class="btn btn-success">Send</button>
 </form>
 
-<p>Thank you for reaching out. We are excited and would respond within 24 hours!</p>
+<p class="lead"> Congratulations! We are excited and would respond within 24 hours!</p>
 
+</div> <!--end div for elements-->
+ 
+<div class="col-md-6">
+<!--Right form element zone-->
+<img src="assets/images/working-with-me.jpg" alt="working with me profile picture">
+</div>
 
-
-
+</div>
 </div>
 </div>
 </div><!--Section for content ends here-->

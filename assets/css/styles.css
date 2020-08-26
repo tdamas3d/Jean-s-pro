@@ -25,6 +25,7 @@ background-color: #c6c9d2;
 
 a{
     color:#901e0d;
+    color:#36a707;
     text-decoration: none;
 }
 
@@ -389,13 +390,13 @@ font-size: 2.1rem;
 
 /**** link buttons initial state***/
 .link-buttons,#competences{
- background-color: #d0979c;
+ background-color: #5c0e13;
 }
 .link-buttons,#projects{
- background-color:#9ab9a1;
+ background-color:#0c6420;
 }
 .link-buttons,#cv{
- background-color:#969891;
+ background-color:#f5f7f0;
 }
 /***  Link buttons on hover****/
 
@@ -515,7 +516,42 @@ font-size: 2.1rem;
     padding-top:25px;
 }
 
+/** CSS style for the page working with me **/
 
+#working-with-me{
+    position:relative;
+}
+
+#working-with-me form{
+
+   position: relative;
+   padding-left: 35px;
+
+}
+
+#working-with-me h1{
+   position: relative;
+   padding-top: 30px; 
+   padding-bottom: 20px;
+   padding-left: 35px;
+   font-size: 1.8rem;
+   font-weight: lighter;
+   line-height: 1.8rem;
+}
+
+#working-with-me p{
+   position: relative;
+   padding-top: 20px;
+   padding-left: 35px;
+}
+
+#working-with-me img{
+   position: relative;
+   padding-top: 100px;
+   padding-right: 35px;
+   width: 48vw;
+   height: 450px;
+}
 
 .font-awasome-icons-list ul {
   list-style: none;
@@ -529,7 +565,7 @@ font-size: 2.1rem;
   color:#121210;
 }
 .font-awasome-icons-list li:before {
-  content: "\f00c"; /* FontAwesome Unicode */
+  content: "\f058"; /* FontAwesome Unicode */
   font-family: FontAwesome;
   display: inline-block;
   margin-left: -1.3em; /* same as padding-left set on li */
@@ -593,45 +629,16 @@ color:whitesmoke;
     height: inherit;
     margin-top: 20px;
     padding-left: 20px;
-    padding-right: 100px;*/
+    /*padding-right: 100px;*/
     padding-bottom: 10px;
     padding-top: 10px;
-    border: 1px solid #901e0d;
+    /*border:1px solid #901e0d;*/
+    border:1px solid #28a745;
 }
 .contactus-zone h2{
 font-weight: lighter;
 font-size: 180%;
 text-transform: uppercase;
-}
-
-
-
-.contactus-left-zone .content-left h2{
- background-color:#901e0d;
-}
-
-.contactus-left-zone .content-left h2:hover{
-   background-color:#b57277;
-}
-
-
-
-
-.contactus-zone button{
-    margin-top:5px;
-    padding-bottom: 5px;
-    width:150px;
-    height:45px;
-    background-color:#901e0d;
-    color:whitesmoke;
-    font-weight: lighter;
-    font-size: 120%;
-    border:none;
-    border-radius: 6px;
-}
-.contactus-zone button:hover{
-    background-color:#b57277;
-    color:whitesmoke;
 }
 
 /****** User agreement Styles ****/
