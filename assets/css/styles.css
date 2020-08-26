@@ -19,11 +19,11 @@ background-color: #c6c9d2;
   background-position: top; 
   background-repeat: no-repeat;
   background-size: cover;
+  word-wrap: break-word;
 }
 /***  default style for links *****/
 
 a{
-    /*color:whitesmoke;*/
     color:#901e0d;
     text-decoration: none;
 }
@@ -41,13 +41,13 @@ header{
     /*margin-bottom: 20px;*/
     width:auto;
     height:95vh;
-  /*background-image: url('../images/content-bg.jpg');*/
-  background-color:#f3eafb;
+  /*background-image: url('../images/content-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top; 
+  background-position: top;*/ 
+  background-color:#f3eafb;
   border-bottom: 1px solid whitesmoke;
-  border-style: inset;
+  /*border-style: inset;*/
   z-index:14;
 }
 /****  nav styles ****************/
@@ -182,10 +182,10 @@ vertical-align: middle;
     margin-right: 20px;
     width:auto;
     height: 40vh;
-    background-color: inherit;
+    background-color: #f3eafb;
     text-align: center;
+    /*background-color: #668066;*/
     border: 1px solid #4b4b8f;
-    /*border-radius: 5px;*/
 }
 
 
@@ -269,7 +269,7 @@ vertical-align: middle;
 
 .about-title {
     position:relative;
-    padding-left:40px;
+    padding-left:35px;
 font-size: 2.1rem;
     font-weight: lighter;
     line-height: 1.8rem;
@@ -311,9 +311,9 @@ font-size: 2.1rem;
 .profile-image{
     position:relative;
     margin:0 auto;
-    /*padding-left: 50px;*/
+    padding-left: 50px;
      width:100%;
-     text-align: center;
+     text-align: left;
 }
 .profile-image img{
  position: relative;
@@ -366,14 +366,15 @@ font-size: 2.1rem;
 
 .graphics img{
     position:relative;
-    /*margin:5px;
-    padding:5px;*/
     display:inline;
     width:540px;
     height:300px;
-    /*border: 1px solid whitesmoke;*/
+    /*animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;*/
+   
 }
-
 .link-buttons{
     position:relative;
     margin-left: 5px;
@@ -484,14 +485,8 @@ font-size: 2.1rem;
     position:relative;
     padding-top:0;
     padding-bottom:10px;
-    /*border: 1px solid whitesmoke;*/
 }
 
-/*
-.projects {
-border: 1px solid whitesmoke;
-
-}*/
 /***    Images style in the page for projects   ***********/
 /** style for projects thumbnails images ***********/
 
@@ -507,7 +502,6 @@ border: 1px solid whitesmoke;
 
 .projects img:hover{
     position:relative;
-    /*margin-bottom:25px;*/
     padding-top:25px;
     display: inline;
     width:300px;
@@ -515,8 +509,6 @@ border: 1px solid whitesmoke;
     opacity: 0.7;
     filter: alpha(opacity=70);
 }
-
-
 
 .projects h2{
     position:relative;
@@ -531,7 +523,6 @@ border: 1px solid whitesmoke;
 }
 .font-awasome-icons-list li {
   padding-left: 1.3em;
-  /*display:inline;*/
   font-size:1.8rem;
   font-weight: lighter;
   line-height: 1.8rem;
@@ -601,11 +592,11 @@ color:whitesmoke;
     width:100%;
     height: inherit;
     margin-top: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 20px;
+    padding-right: 100px;*/
     padding-bottom: 10px;
     padding-top: 10px;
-    /*border: 1px solid whitesmoke;*/
+    border: 1px solid #901e0d;
 }
 .contactus-zone h2{
 font-weight: lighter;
@@ -656,6 +647,8 @@ text-transform: uppercase;
 
 .user-agreement p{
     padding-top: 5px;
+    /*padding-left: 35px;
+    padding-right: 35px;*/
     padding-bottom: 2px;
     margin: 0 auto;
     color:green;
