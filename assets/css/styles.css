@@ -217,7 +217,7 @@ vertical-align: middle;
     display: inline-flex;
     width: auto;
     height: auto;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: lighter;
     line-height: 1.6rem;
 }
@@ -233,13 +233,13 @@ vertical-align: middle;
 .other-resources ul li{
     position:relative;
     margin:0;
-    padding:10px;
+    padding:6px;
     display: inline;
 }
 
 .other-resources ul li a{
     position:relative;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: lighter;
     line-height: 1.6rem;
     color: #121210;
@@ -250,6 +250,57 @@ vertical-align: middle;
  color:#36a707;
  text-decoration: none;
 }
+
+
+
+
+
+/***     Other resources menu for mobile -------------------**/
+
+.other-resources-mobile{
+    position: relative;
+    margin:0;
+    top: 5vh;
+    display: inline-flex;
+    width: auto;
+    height: auto;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    line-height: 1.8rem;
+    z-index: 18;
+}
+
+.other-resources-mobile ul{
+    position:relative;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+
+.other-resources-mobile ul li{
+    position:relative;
+    margin:0;
+    padding:10px;
+    display: inline;
+}
+
+.other-resources-mobile ul li a{
+    position:relative;
+    font-size: 1.9rem;
+    font-weight: lighter;
+    line-height: 1.8rem;
+    color: #121210;
+    text-decoration: none;
+}
+
+.other-resources-mobile ul li a:hover{
+ color:#36a707;
+ text-decoration: none;
+}
+
+
+
 
 /****  Header styles ends ***/
 
@@ -635,6 +686,15 @@ color:whitesmoke;
     /*border:1px solid #901e0d;*/
     border:1px solid #28a745;
 }
+
+.contactus-zone a{
+ color:#121210;
+}
+
+.contactus-zone a:hover{
+ color: #28a745;
+}
+
 .contactus-zone h2{
 font-weight: lighter;
 font-size: 180%;
