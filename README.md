@@ -60,7 +60,11 @@ With github the coding journey was documented and can be tracked now.
 The end product was validated and tested.
 The html pages were validated by means of w3c html5 validator.
 CSS code was validated by means of w3c jigsaw.
-The end product has undergone multiple testing to test the colors against the expect colors to test the layout against the expected layout as of the wireframes.
+The end product has undergone multiple testing as follows. Functional testing to test whether the products responds to the expected functions.
+Usability testing to test the look and feel including colors against the expect colors to test the layout against the expected layout as of the wireframes.
+The split testing to test variations of the look and feel, of positioning of elements, of colors, ...
+And lat but not least, I have conducted the compatibility test to test if the end product is compatible with mobile devices as it is for medium devices.
+Also, I have tested the product in multiple browsers including internet explorer, mozilla firefox, and Google Chrome.
 The product was also tested on mobile devices and medium screens. So far, the product behaves well on mobile and on medium screen devices.
 I did not test the product on very large devices.
 
