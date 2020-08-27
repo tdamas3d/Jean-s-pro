@@ -78,3 +78,10 @@ I did not test the product on very large devices.
 4. Working with me section
 <img src="assets/images/working-with.jpg" alt=" Contact us section Screenshot">
 ## Hosting
+The end product is hosted on the cloud by means of GitHub. It is now hosted via GitHub Pages, and can be accessed here
+at [Jean's Pro](https://tdamas3d.github.io/Jean-s-pro/). <br>
+Welcome to visit our website and share any comments.<br>
+[Jean's Pro - we are online here!](https://tdamas3d.github.io/Jean-s-pro/)
+
+
+## Thank you for reading through!
