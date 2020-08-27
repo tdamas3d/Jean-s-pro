@@ -56,17 +56,25 @@ Also, in the contact us form we have adapted the code from the CI classrum.
 This website was designed in the cloud by means of Cloud9 via Github and gitpod utilities.
 With github the coding journey was documented and can be tracked now.
 
-## Validation and testing
+## Validation
 The end product was validated and tested.
 The html pages were validated by means of w3c html5 validator.
 CSS code was validated by means of w3c jigsaw.
+The product passed succeessfully both the w3c html and w3c css jigsaw validations.
+It fullfils the optimal syntax requirements for html5 and css3. However, the syntax is not garanteed by these testing, it was rather 
+addressed by following good logic of elements flow and the project goals.  
+
+## Testing
 The end product has undergone multiple testing as follows. Functional testing to test whether the products responds to the expected functions.
 Usability testing to test the look and feel including colors against the expect colors to test the layout against the expected layout as of the wireframes.
 The split testing to test variations of the look and feel, of positioning of elements, of colors, ...
-And lat but not least, I have conducted the compatibility test to test if the end product is compatible with mobile devices as it is for medium devices.
+I have conducted the compatibility test to test if the end product is compatible with mobile devices as it is for medium devices.
 Also, I have tested the product in multiple browsers including internet explorer, mozilla firefox, and Google Chrome.
+And lat but not least, I have tested the communicability of various modules which make the product (communication testing).
+as a result, major communication errors were detected and resolved. Now the websites parts and pages communicate well as of the last testing.
 The product was also tested on mobile devices and medium screens. So far, the product behaves well on mobile and on medium screen devices.
 I did not test the product on very large devices.
+THe rest testing concerns User and User Acceptance Testing (UAT). We hope to get feedback from users in regard to improvements for a better product.
 
 ## The final product look and feel in images
 1. Home page Screenshot
@@ -76,12 +84,13 @@ I did not test the product on very large devices.
 3. Footer Section
 <img src="assets/images/footersection.jpg" alt=" Contact us section Screenshot">
 4. Working with me section
-<img src="assets/images/working-with.jpg" alt=" Contact us section Screenshot">
-## Hosting
+<img src="assets/images/working-with.jpg" alt=" Contact us section Screenshot"><br>
+
+## Hosting (by means of GitHub pages)
 The end product is hosted on the cloud by means of GitHub. It is now hosted via GitHub Pages, and can be accessed here
 at [Jean's Pro](https://tdamas3d.github.io/Jean-s-pro/). <br>
 Welcome to visit our website and share any comments.<br>
 [Jean's Pro - we are online here!](https://tdamas3d.github.io/Jean-s-pro/)
 
 
-## Thank you for reading through!
+### Hope you enjoyed reading through our product ReadMe file!
