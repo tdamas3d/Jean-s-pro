@@ -52,17 +52,9 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;*/ 
-  /* background-color:#b684e2;
-  background-color:#33bec2;
- background-color:#8d93a2;
-  background-color:#28a745;*/
   background-color:#90ad8d;
   background-color:#f3eafb;
-  /*background-color:#b684e2;
-  background-color:#6723e2;*/
   background-color:#7325f3;
-  /*border-bottom: 0px solid #fff;
-  border-style: inset;*/
   z-index:14;
 }
 /****  nav styles ****************/
@@ -83,24 +75,20 @@ header{
 padding-top:50px;
 padding-left:35px;
 margin:0 auto;
- color:greenyellow;
- color:whitesmoke;
- color:#d3c3ec;
  color:#d9caf3;
  font-size: 1.1rem;
  font-weight: bold;
  line-height: 1.8rem;
  text-transform: capitalize;
  text-align: left;
- /*text-decoration: overline;*/
  text-decoration: overline;
 }
-/*
+
 .logo h1 a{
 font-weight: bold;
 color:#fff;
  text-decoration: none;
-}*/
+}
 
 /***  styles for links *****/
 .top-nav-links{
@@ -114,15 +102,11 @@ color:#fff;
 .top-nav-links h6{
 position: relative;
   display:inline-block;
-   color:greenyellow;
-   color:whitesmoke;
-   color:#d3c3ec;
    color:#d9caf3;
   font-size: 1.1rem;
  font-weight: lighter;
  line-height: 1.8rem;
  text-transform: capitalize;
- /*text-decoration: overline;*/
  text-decoration: overline;
 }
 
@@ -186,14 +170,8 @@ font-size: 2.8rem;
 font-weight: lighter;
 line-height: 1.8rem;
 text-transform: uppercase;
-color: #121210;
-color:#d2ead2;
-color:#e1dbea;
-color:#a484d8;
 color:#c5b8da;
 text-decoration:none;
-/*text-align:center;
-vertical-align: middle;*/
 }
 
 /*** HOME IMAGE zone css styles ******************/
@@ -227,11 +205,6 @@ vertical-align: middle;*/
  font-weight:lighter;
  text-align:center;
  text-transform: uppercase;
- color: #121210;
-  color:#d2ead2;
-  color:#c2a2f5;
-  color:#e1dbea;
-  color:#a484d8;
   color:#c5b8da;
   text-decoration:none;
 }
@@ -242,8 +215,6 @@ vertical-align: middle;*/
  line-height: 1.8rem;
  font-weight: lighter;
  text-align:center;
- color: #121210;
- color:#d2ead2;
  color:#b9b9e0;
 }
 
@@ -282,8 +253,6 @@ vertical-align: middle;*/
     font-size: 1.1rem;
     font-weight: bold;
     line-height: 1.8rem;
-        color:#3f1288;
-        color:#a278e6;
         color:#d9caf3;
     text-decoration: none;
 }
@@ -299,11 +268,10 @@ vertical-align: middle;*/
 
 /***     Other resources menu for mobile -------------------**/
 
-.other-resources-mobile{
+/*.other-resources-mobile{
     position: relative;
     margin:0;
     top: 5vh;
-    display: inline-flex;
     width: auto;
     height: auto;
     font-size: 1.1rem;
@@ -331,6 +299,7 @@ vertical-align: middle;*/
 
 .other-resources-mobile ul li a{
     position:relative;
+    display: inline;
     font-size: 1.3rem;
     font-weight: lighter;
     line-height: 1.8rem;
@@ -342,6 +311,34 @@ vertical-align: middle;*/
  color:#36a707;
  text-decoration: none;
 }
+
+*/
+
+
+
+.navbar a[class="navbar-brand"]{
+    color:whitesmoke;
+}
+
+.navbar .nav-item{
+    color:inherit;
+}
+
+.navbar .nav-item .mr-auto .active{
+    color:orange;
+}
+
+.navbar.navbar-9 .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FBD8');
+}
+
+
+
+
+
+
+
+
 
 
 
