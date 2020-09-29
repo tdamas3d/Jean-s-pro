@@ -564,18 +564,19 @@ font-size: 2.1rem;
     font-size: 2.1rem;
     font-weight: lighter;
     line-height: 1.8rem;
-    color: #121210;
+    color:#c6b6f5;
  text-transform: uppercase;
 }
 
 .competences p{
     position:relative;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     font-weight: lighter;
     line-height: 1.8rem;
     text-align: justify;
     color:#121210;
     color:#e8cfcf;
+    
 }
 
 
@@ -583,10 +584,10 @@ font-size: 2.1rem;
 
  position:relative;
     padding: 10px 0 10px 0;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: lighter;
     line-height: 1.6rem;
-    color: #121210;
+    color: #cde8be;
  text-transform: uppercase;
 
 }
@@ -595,10 +596,10 @@ font-size: 2.1rem;
 
  position:relative;
     padding: 10px 0 10px 0;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: lighter;
     line-height: 1.8rem;
-    color:#6aa90a;
+    color:#b6d489;
  text-transform: capitalize;
 
 }
@@ -706,10 +707,10 @@ font-size: 2.1rem;
 }
 .font-awasome-icons-list li {
   padding-left: 1.3em;
-  font-size:1.8rem;
+  font-size:1.1rem;
   font-weight: lighter;
   line-height: 1.8rem;
-  color:#121210;
+  color:#ffffff;
 }
 .font-awasome-icons-list li:before {
   content: "\f058"; /* FontAwesome Unicode */
@@ -824,7 +825,7 @@ text-transform: uppercase;
     color:#fff;
     background-color: #507368;
     background-color: green;
-    border-color:green;
+    border-color: #507368;
 }
 
 /****** User agreement Styles ****/
