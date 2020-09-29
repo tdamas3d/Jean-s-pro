@@ -823,7 +823,8 @@ text-transform: uppercase;
     color: #e7ecdf;
     color:#fff;
     background-color: #507368;
-    border-color: #507368;
+    background-color: green;
+    border-color:green;
 }
 
 /****** User agreement Styles ****/
