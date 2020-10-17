@@ -42,7 +42,8 @@ header{
     padding:0;
     width:auto;
     height:93vh;
-    background-color:#76678e;
+    /*background-color:#76678e;*/
+    background-color:#522e8a;
     z-index:14;
    }
 
@@ -675,7 +676,8 @@ font-size: 2.1rem;
  padding-bottom: 20px;
  width:100%;
  height:auto;
- background-color:#76678e;
+ /*background-color:#76678e;*/
+ background-color:#522e8a;
  color:#c7d1d8;
  color: white;
 }
