@@ -219,9 +219,10 @@ text-decoration:overline;
     margin-left: 20px;
     margin-right: 20px;
     width:auto;
-    height: 12vh;
+    height: 19vh;
     text-align: center;
     border: 1px dotted #ac98e6;
+     border-radius: 2px;
 }
 
 
