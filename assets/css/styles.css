@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
-/*General site style rules*/
+/* General site style rules */
 *{
     box-sizing: border-box;
 }
@@ -14,101 +14,91 @@ body {
 font-family:"Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 margin:0;
 padding:0;
-color: #121210;
-background-color: #c6c9d2;
-background-color:#f3eafb;
-background-color:#b684e2;
+color: #fff;
 background-color:#775bc9;
   background-position: top; 
   background-repeat: no-repeat;
   background-size: cover;
   word-wrap: break-word;
 }
-/***  default style for links *****/
+/* default style for links */
 
 a{
-    color:#501009;
-    color:#921818;
-    color:#80f789;
-    color:#baa6f3;
+    color:#eae5f3;
     font-weight:lighter;
     text-decoration: none;
 }
 
 a:hover{
-    color:#80f789;
+    color:white;
     text-decoration: none;
 }
 
-/****   Header styles ****/
+
+/* Header styles */
 header{
     position:relative;
     top:0;
     padding:0;
-    /*margin-bottom: 20px;*/
     width:auto;
-    height:95vh;
-  /*background-image: url('../images/content-bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;*/ 
-  background-color:#90ad8d;
-  background-color:#f3eafb;
-  background-color:#7325f3;
-  z-index:14;
-}
-/****  nav styles ****************/
+    height:93vh;
+    background-color:#76678e;
+    z-index:14;
+   }
+
+
+/* nav styles */
 .top-navigation-zone{
     position:relative;
     width:auto;
-    height:28vh;
+    height:0vh;
+    background-color:#573da2;
 }
 
-/*logo zone css style*/
+/* logo zone css style */
 .logo{
  position: relative;
  margin: 0 auto;
  text-align: left;
 }
-
-.logo h1{
-padding-top:50px;
-padding-left:35px;
-margin:0 auto;
- color:#d9caf3;
- font-size: 1.1rem;
- font-weight: bold;
- line-height: 1.8rem;
- text-transform: capitalize;
- text-align: left;
- text-decoration: overline;
-}
-
-.logo h1 a{
-font-weight: bold;
-color:#fff;
- text-decoration: none;
-}
-
-/***  styles for links *****/
+/* styles for links */
 .top-nav-links{
     position: relative;
-    padding-top:50px;
     display: block;
     margin:0 auto;
-    text-align: left; 
+    text-align: center;
 }
 
 .top-nav-links h6{
 position: relative;
   display:inline-block;
-   color:#d9caf3;
-  font-size: 1.1rem;
+   color:#eae5f3;
+  font-size: 1.3rem;
  font-weight: lighter;
  line-height: 1.8rem;
- text-transform: capitalize;
- text-decoration: overline;
+ text-transform: uppercase;
+ text-decoration: none;
 }
+
+
+.social-networks{
+    position: relative;
+    display: block;
+    margin:0 auto;
+    text-align: center; 
+}
+
+.social-networks h6{
+position: relative;
+  display:inline-block;
+   color:#eae5f3;
+  font-size: 1.1rem;
+ font-weight: lighter;
+ text-transform: capitalize;
+ text-decoration: none;
+}
+
+
 
 nav{
   position:relative;
@@ -116,7 +106,8 @@ nav{
 }
 
 nav ul{
-     padding-left: 5px;
+    padding-left: 0px;
+    padding-right: 5px;
     list-style:none;
 }
 nav ul li{
@@ -124,15 +115,14 @@ nav ul li{
 }
 nav ul li a{
    padding-left: 5px;
-   padding-right: 5px;
+   padding-right: 10px;
    padding-top: 0px;
-    color:#d2ead2;
-    color:#d3c3ec;
-    color:#d9caf3;
-    font-size: 1.1rem;
+    color:#eae5f3;
+    font-size: 1.3rem;
  font-weight: bold;
  line-height: 1.8rem;
  text-decoration: none;
+ text-transform:uppercase;
 }
 
 nav ul li a:hover{
@@ -140,7 +130,7 @@ nav ul li a:hover{
  text-decoration: none;
 }
 
-/*****************  styles for banner zone i.e. for big logo and home image ***************/
+/* styles for banner zone i.e. for big logo and home image */
 
 
 .banner-zone{
@@ -148,13 +138,15 @@ nav ul li a:hover{
  padding:0;
  margin:0;
  display: flex;
+ background-color:#7325f3;
 }
 
-/*** BIG LOGO zone css styles ******************/
+/* BIG LOGO zone css styles */
 .big-logo{
 position: relative;
 margin:0 auto;
 padding:0;
+padding-top:5vh;
 text-align: center;
 vertical-align: middle;
 width: 100%;
@@ -162,36 +154,72 @@ height: 48vh;
 }
 
 .big-logo h1{
+    position:relative;
+margin:0;
+padding:0;
+}
+
+.big-logo h1 a{
 position:relative;
 margin:0;
 padding:0;
-top:23vh;
-font-size: 2.8rem;
-font-weight: lighter;
+top:3vh;
+font-size: 5.1rem;
+font-weight: bold;
 line-height: 1.8rem;
 text-transform: uppercase;
-color:#c5b8da;
+color:#eae5f3;
 text-decoration:none;
 }
 
-/*** HOME IMAGE zone css styles ******************/
+.big-logo h1 a:hover{
+    color:white;
+}
+
+.big-logo p{
+position:relative;
+margin:0;
+padding:0;
+top:0;
+font-size: 1.8rem;
+font-weight: lighter;
+line-height: 1.8rem;
+text-transform: capitalize;
+color:#eae5f3;
+text-decoration:overline;
+}
+
+.big-logo p[class="under-logo"]{
+    position:relative;
+margin:0;
+padding:0;
+top:7vh;
+font-size: 1.1rem;
+font-weight: lighter;
+line-height: 1.8rem;
+text-transform: capitalize;
+color:#eae5f3;
+text-decoration:overline;
+}
+
+/* HOME IMAGE zone css styles */
+
 .home-image{
     position: relative;
-    /*top:8vh;*/
     padding:0;
     margin: 0px;
     width:inherit;
     height: inherit;
-    background-color: inherit;
+  background-position: top;
 }
 
 .home-image-content{
     position: relative;
-    top:8vh;
+    top:7vh;
     margin-left: 20px;
     margin-right: 20px;
     width:auto;
-    height: 40vh;
+    height: 12vh;
     text-align: center;
     border: 1px dotted #ac98e6;
 }
@@ -200,31 +228,31 @@ text-decoration:none;
 
 .home-image-content h2{
  padding-top: 4vh;
- font-size: 2.8rem;
+ font-size: 2.3rem;
  line-height: 1.8rem;
  font-weight:lighter;
  text-align:center;
- text-transform: uppercase;
-  color:#c5b8da;
+ text-transform: capitalize;
+  color:#eae5f3;
   text-decoration:none;
 }
 
 .home-image-content h6{
- padding-top: 1vh;
+ padding-top: 3vh;
  font-size: 1.1rem;
  line-height: 1.8rem;
  font-weight: lighter;
  text-align:center;
- color:#b9b9e0;
+ color:#eae5f3;
 }
 
 
-/***     Other resources menu-------------------**/
+/*     Other resources menu  */
 
 .other-resources{
     position: relative;
     margin:0;
-    top: 8vh;
+    top:0;
     display: inline-flex;
     width: auto;
     height: auto;
@@ -250,71 +278,18 @@ text-decoration:none;
 
 .other-resources ul li a{
     position:relative;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: bold;
     line-height: 1.8rem;
-        color:#d9caf3;
+        color:#eae5f3;
     text-decoration: none;
+    text-transform:uppercase;
 }
 
 .other-resources ul li a:hover{
- color:white;
+ color:#b9b9e0;
  text-decoration: none;
 }
-
-
-
-
-
-/***     Other resources menu for mobile -------------------**/
-
-/*.other-resources-mobile{
-    position: relative;
-    margin:0;
-    top: 5vh;
-    width: auto;
-    height: auto;
-    font-size: 1.1rem;
-    font-weight: lighter;
-    line-height: 1.8rem;
-    color:greenyellow;
-    z-index: 18;
-}
-
-.other-resources-mobile ul{
-    position:relative;
-    margin:0 auto;
-    padding:0;
-    list-style:none;
-        text-align:center;
-}
-
-
-.other-resources-mobile ul li{
-    position:relative;
-    margin:0;
-    padding:5px;
-    display: inline;
-}
-
-.other-resources-mobile ul li a{
-    position:relative;
-    display: inline;
-    font-size: 1.3rem;
-    font-weight: lighter;
-    line-height: 1.8rem;
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-.other-resources-mobile ul li a:hover{
- color:#36a707;
- text-decoration: none;
-}
-
-*/
-
-
 
 .navbar a[class="navbar-brand"]{
     color:whitesmoke;
@@ -333,20 +308,10 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FB
 }
 
 
+/*  Header styles ends */
 
 
-
-
-
-
-
-
-
-
-/****  Header styles ends ***/
-
-
-/****  Content about me -- CSS styles ******/
+/*  Content about me -- CSS styles */
 
 .content-section{
     position: relative;
@@ -366,22 +331,16 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FB
 font-size: 2.1rem;
     font-weight: lighter;
     line-height: 1.8rem;
-    color: #121210;
-    color:#c6b6f5;
+    color:#eae5f3;
  text-transform: uppercase;
 }
 
 
 .about-short-text{
     position:relative;
-    /*padding: 50px;*/
      width:100%;
-    /*background-color:#fff;
-    background-color:#f1c9c9;
-    background-color: #ded9d9;*/
     text-align: justify;
-    border: 1px dotted #b7aca8;
-    border: 1px dotted #d98d6f;
+    border: 1px dotted #bbcbf3;
 }
 
 .special-padding{
@@ -395,28 +354,23 @@ font-size: 2.1rem;
     padding-bottom:25px;
     padding-left:35px;
     padding-right:35px;
-    /*font-size: 1.6rem;*/
     font-size: 1.1rem;
     font-weight: lighter;
     line-height: 1.8rem;
-    color: #121210;
-    /*color:#656560;
-    color:#2d482b;*/
-    color:#000;
     color:#e8cfcf;
 }
 
 
-.profile-image{
+
+.profile-image0{
     position:relative;
-    margin:0 auto;
+    padding-top:40px;
     padding-left: 50px;
      width:100%;
-     text-align: left;
       opacity: 1.0;
     filter: alpha(opacity=100);
 }
-.profile-image img{
+.profile-image0 img{
  position: relative;
  margin: 0 auto;
  width:230px;
@@ -427,15 +381,14 @@ font-size: 2.1rem;
     border: 10px solid rgba(0, 0, 0, 0.12);
     border-radius: 50%;
     display: block;
-    /*margin: 1.3em auto;
-    max-width: 95%;*/
 }
 
-.profile-image img:hover{
-        opacity: 0.7;
-    filter: alpha(opacity=70);
+.profile-image0 img:hover{
+        opacity: 0.8;
+    filter: alpha(opacity=80);
   
 }
+
 
 .short-summary{
  position:relative;
@@ -448,8 +401,7 @@ font-size: 2.1rem;
     font-size: 2.1rem;
     font-weight: lighter;
     line-height: 1.8rem;
-    color: #121210;
-    color:#c6b6f5;
+    color:#eae5f3;
  text-transform: uppercase;
 }
 
@@ -459,11 +411,7 @@ font-size: 2.1rem;
     font-weight: lighter;
     line-height: 1.8rem;
     text-align: justify;
-    color: #121210;
     color:#e8cfcf;
-    /*color:#656560;
-    color:#2d482b;
-    color:green;*/
 }
 
 .space-free{
@@ -471,11 +419,10 @@ font-size: 2.1rem;
   padding-bottom: 25px;
 }
 
-/**  css style for image in the short cv...*********/
+/*  css style for image in the short cv */
 .graphics{
   position:relative;
   margin-bottom: 5px;
-  /*padding-right:50px;*/
   display:inline;
   width:auto;
   height:auto;
@@ -509,7 +456,7 @@ font-size: 2.1rem;
     color:#fff;
 }
 
-/**** link buttons initial state***/
+/* link buttons initial state */
 .link-buttons, #home{
  background-color:#787b7d;
  color:white;
@@ -526,7 +473,7 @@ font-size: 2.1rem;
  background-color:#4d4e48;
  color:white;
 }
-/***  Link buttons on hover****/
+/*  Link buttons on hover */
 
 .link-buttons #competences:hover{
  background-color: #8c6c5f;
@@ -543,15 +490,14 @@ font-size: 2.1rem;
 }
 
 
-/**** styles for other pages ----**/
+/* styles for other pages */
 
-/*** competences page styles ...***********/
 
+/* competences page styles */
 
 .competences{
  position:relative;
  background-color: inherit;
-    /* top:170px;*/
  padding:70px;
 }
 
@@ -561,7 +507,7 @@ font-size: 2.1rem;
     font-size: 2.1rem;
     font-weight: lighter;
     line-height: 1.8rem;
-    color:#c6b6f5;
+    color:#eae5f3;
  text-transform: uppercase;
 }
 
@@ -571,9 +517,7 @@ font-size: 2.1rem;
     font-weight: lighter;
     line-height: 1.8rem;
     text-align: justify;
-    color:#121210;
     color:#e8cfcf;
-    
 }
 
 
@@ -602,7 +546,7 @@ font-size: 2.1rem;
 }
 
 
-/*** images styles in the competences page *********/
+/* images styles in the competences page */
 
 .competences img{
     position:relative;
@@ -626,8 +570,8 @@ font-size: 2.1rem;
     padding-bottom:10px;
 }
 
-/***    Images style in the page for projects   ***********/
-/** style for projects thumbnails images ***********/
+/*    Images style in the page for projects   
+ style for projects thumbnails images */
 
 .projects img{
     position:relative;
@@ -652,9 +596,10 @@ font-size: 2.1rem;
 .projects h2{
     position:relative;
     padding-top:25px;
+    color:#eae5f3;
 }
 
-/** CSS style for the page working with me **/
+/* CSS style for the page working with me */
 
 #working-with-me{
     position:relative;
@@ -719,7 +664,7 @@ font-size: 2.1rem;
 
 
 
-/****************** FOOTER ZONE MENUS ********************/
+/* FOOTER ZONE MENUS */
 
 .footer-zone{
  position:relative;
@@ -729,15 +674,10 @@ font-size: 2.1rem;
  padding-bottom: 20px;
  width:100%;
  height:auto;
- background-color: rgba(40, 62, 74, .5);
+ background-color:#76678e;
  color:#c7d1d8;
  color: white;
 }
-/*
-.footer-zone .btn-success{
-background-color:#1e631e;
-color:#fff;
-}*/
 
 .portfolios-zone{
     position: relative;
@@ -755,7 +695,7 @@ color:#fff;
     text-align: center;
 }
     
-/******   CONTACT US ZONE *******/
+/*   CONTACT US ZONE */
 
 .contactus-left-zone{
     position: relative;
@@ -767,7 +707,6 @@ color:#fff;
 text-decoration: overline;
 font-weight: lighter;
 font-size: 120%;
-color: #e7ecdf;
 color:#fff;
 text-transform:uppercase;
 }
@@ -778,7 +717,7 @@ color:#fff;
 
 .contactus-left-zone p{
     font-size:0.9rem;
-    color:#c1bef7;
+    color:#fff;
 }
 
 .contactus-zone{
@@ -787,12 +726,9 @@ color:#fff;
     height: inherit;
     margin-top: 20px;
     padding-left: 20px;
-    /*padding-right: 100px;*/
     padding-bottom: 10px;
     padding-top: 10px;
-    /*border:1px solid #901e0d;*/
-    border:1px dotted greenyellow;
-    border: 1px dotted #b7aca8;
+    border: 1px dotted #afa2d6;
 }
 .contactus-zone h2{
 color:#fff;
@@ -800,10 +736,12 @@ color:#fff;
 
 .contactus-zone a{
  color:#121210;
+ color:#eae5f3;
 }
 
 .contactus-zone a:hover{
  color: #28a745;
+ color:white;
 }
 
 .contactus-zone h2{
@@ -818,33 +756,25 @@ text-transform: uppercase;
 }
 
 .btn-success {
-    color: #e7ecdf;
     color:#fff;
-    background-color: #507368;
     background-color: green;
     border-color: #507368;
 }
 
-/****** User agreement Styles ****/
+/* User agreement Styles */
 
 .user-agreement{
     position: relative;
     width:100%;
     height:70px;
     background-color: rgba(245, 245, 245, .9);
-    /*background-color:#b684e2;*/
     z-index: 16;
 }
 
 
 .user-agreement p{
-    padding-top: 5px;
-    /*padding-left: 35px;
-    padding-right: 35px;*/
     padding-bottom: 2px;
     margin: 0 auto;
-    color:#8badef;
-    color:#b7aca8;
     color:#efdbdb;
     text-align:center;
     font-weight: lighter;
@@ -853,25 +783,28 @@ text-transform: uppercase;
 }
 
 .user-agreement a{
-    color:#bde2bc;
+    color:#fff;
    }
    
    .user-agreement a:hover{
-    color:green;
-    color:white;
+    color:#eae5f3;
    }
    
   .user-agreement h6{
+          top: 15px;
     color:white;
    }
    
+     .user-agreement nav{
+          top: 15px;
+   }
    
-   /*CSS rules for forms */
+   
+   /* CSS rules for forms */
 
    .form-control{
     display: block;
     width: 100%;
-    /*height: calc(1.5em + .75rem + 2px);*/
     padding: .375rem .75rem;
     font-size: 1rem;
     font-weight: 400;
@@ -893,7 +826,6 @@ transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     pointer-events: auto;
     background-color: #3c2e65;
     background-clip: padding-box;
-    /*border: 1px solid rgba(0,0,0,.2);*/
     border: 1px solid rgba(53,56,64,1);
     border-radius: .3rem;
     outline: 0;
@@ -919,10 +851,10 @@ label {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1;
-    color: #f92e2e;
     color:#a89dc3;
     text-shadow: 0 1px 0 #a89dc3;
     opacity: .5;
 }
-   
-   /******   end of CSS style *******/
+
+
+/* end of CSS style */
