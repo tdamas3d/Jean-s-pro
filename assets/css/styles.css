@@ -15,7 +15,7 @@ font-family:"Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif
 margin:0;
 padding:0;
 color: #fff;
-background-color:#775bc9;
+background-color:#00008b;
   background-position: top; 
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,8 +42,7 @@ header{
     padding:0;
     width:auto;
     height:93vh;
-    /*background-color:#76678e;*/
-    background-color:#522e8a;
+    background-color:blueviolet;
     z-index:14;
    }
 
@@ -140,6 +139,8 @@ nav ul li a:hover{
  margin:0;
  display: flex;
  background-color:#7325f3;
+ background-color:darkblue;
+ background-color:#00008b;
 }
 
 /* BIG LOGO zone css styles */
@@ -342,7 +343,7 @@ font-size: 2.1rem;
     position:relative;
      width:100%;
     text-align: justify;
-    border: 1px dotted #bbcbf3;
+    /*border: 1px dotted #bbcbf3;*/
 }
 
 .special-padding{
@@ -676,8 +677,7 @@ font-size: 2.1rem;
  padding-bottom: 20px;
  width:100%;
  height:auto;
- /*background-color:#76678e;*/
- background-color:#522e8a;
+ background-color:blueviolet;
  color:#c7d1d8;
  color: white;
 }
