@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Monoton&family=Shadows+Into+Light&display=swap');
+
+
 
 /* General site style rules */
 *{
@@ -41,9 +46,27 @@ header{
     top:0;
     padding:0;
     width:auto;
-    height:93vh;
+    height:74vh;
     background-color:blueviolet;
+    background-color:#4b499c;
+    background-color:#00008b;
     z-index:14;
+   }
+   
+   .animated-text{
+  position: relative;
+  top:30px;
+  padding-right:30px;
+   color:#eae5f3;
+   color:#e0c39f;
+   color:#8383d0;
+   color:#5858b7;
+  font-size: 2.4rem;
+ font-weight: lighter;
+ line-height: 2.4rem;
+ /*text-transform:capitalize;*/
+ text-decoration: none;
+ text-align:right;
    }
 
 
@@ -73,6 +96,8 @@ header{
 position: relative;
   display:inline-block;
    color:#eae5f3;
+   color:#e0c39f;
+   
   font-size: 1.3rem;
  font-weight: lighter;
  line-height: 1.8rem;
@@ -92,6 +117,10 @@ position: relative;
 position: relative;
   display:inline-block;
    color:#eae5f3;
+   color:#e0c39f;
+   color:#5555c7;
+   font-family: 'Marck Script', cursive;
+    font-family: 'Shadows Into Light', cursive;
   font-size: 1.1rem;
  font-weight: lighter;
  text-transform: capitalize;
@@ -118,6 +147,11 @@ nav ul li a{
    padding-right: 10px;
    padding-top: 0px;
     color:#eae5f3;
+    color:#b5b5e2;
+    color:white;
+    color:#b5b5e2;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Shadows Into Light', cursive;
     font-size: 1.3rem;
  font-weight: bold;
  line-height: 1.8rem;
@@ -156,7 +190,7 @@ height: 48vh;
 }
 
 .big-logo h1{
-    position:relative;
+position:relative;
 margin:0;
 padding:0;
 }
@@ -166,16 +200,22 @@ position:relative;
 margin:0;
 padding:0;
 top:3vh;
+font-family: 'Marck Script', cursive;
+    font-family: 'Shadows Into Light', cursive;
 font-size: 5.1rem;
 font-weight: bold;
 line-height: 1.8rem;
 text-transform: uppercase;
 color:#eae5f3;
+color:#e0c39f;
+color:#b5b5e2;
+color:white;
 text-decoration:none;
 }
 
 .big-logo h1 a:hover{
     color:white;
+    color:#b5b5e2;
 }
 
 .big-logo p{
@@ -188,11 +228,12 @@ font-weight: lighter;
 line-height: 1.8rem;
 text-transform: capitalize;
 color:#eae5f3;
+color:#e0c39f;
 text-decoration:overline;
 }
 
 .big-logo p[class="under-logo"]{
-    position:relative;
+position:relative;
 margin:0;
 padding:0;
 top:7vh;
@@ -201,6 +242,8 @@ font-weight: lighter;
 line-height: 1.8rem;
 text-transform: capitalize;
 color:#eae5f3;
+color:#b5b5e2;
+color:#5454e2;
 text-decoration:overline;
 }
 
@@ -223,8 +266,9 @@ text-decoration:overline;
     width:auto;
     height: 20vh;
     text-align: center;
-    border: 1px dotted #ac98e6;
-     border-radius: 2px;
+    /*border: 1px dotted #5454e2;
+     border-radius: 2px;*/
+     
 }
 
 
@@ -237,16 +281,21 @@ text-decoration:overline;
  text-align:center;
  text-transform: capitalize;
   color:#eae5f3;
+  color:#e0c39f;
   text-decoration:none;
 }
 
 .home-image-content h6{
- padding-top: 3vh;
+ /*padding-top: 3vh;*/
  font-size: 1.1rem;
  line-height: 1.8rem;
  font-weight: lighter;
  text-align:center;
  color:#eae5f3;
+ color:#b5b5e2;
+ color:white;
+ color:#5555c7;
+ color:#5454e2;
 }
 
 
@@ -285,6 +334,7 @@ text-decoration:overline;
     font-weight: bold;
     line-height: 1.8rem;
         color:#eae5f3;
+        color:#e0c39f;
     text-decoration: none;
     text-transform:uppercase;
 }
@@ -327,7 +377,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FB
  position: relative;
  display:block;
 }
-
+/*
 .about-title {
     position:relative;
     padding-left:35px;
@@ -335,7 +385,24 @@ font-size: 2.1rem;
     font-weight: lighter;
     line-height: 1.8rem;
     color:#eae5f3;
+    color:#e0c39f;
+    color:#ffffff;
  text-transform: uppercase;
+}*/
+
+
+.about-title {
+    position: relative;
+    padding-left: 35px;
+font-family: 'Monoton', cursive;
+font-family: 'Shadows Into Light', cursive;
+    font-size: 10.71rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: #eae5f3;
+    color: #e0c39f;
+    color: #050cb16b;
+    text-transform: uppercase;
 }
 
 
@@ -357,7 +424,9 @@ font-size: 2.1rem;
     padding-bottom:25px;
     padding-left:35px;
     padding-right:35px;
-    font-size: 1.1rem;
+    font-family: 'Marck Script', cursive;
+font-family: 'Shadows Into Light', cursive;
+    font-size: 1.4rem;
     font-weight: lighter;
     line-height: 1.8rem;
     color:#e8cfcf;
@@ -401,16 +470,20 @@ font-size: 2.1rem;
 .short-summary h2{
     position:relative;
     padding: 10px 0 10px 0;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Shadows Into Light', cursive;
     font-size: 2.1rem;
     font-weight: lighter;
     line-height: 1.8rem;
     color:#eae5f3;
+    color:#e0c39f;
+    color:#ffffff;
  text-transform: uppercase;
 }
 
 .short-summary p{
     position:relative;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: lighter;
     line-height: 1.8rem;
     text-align: justify;
@@ -453,6 +526,8 @@ font-size: 2.1rem;
     margin-top:2px;
     display: inline;
     padding:10px;
+    font-family: 'Monoton', cursive;
+font-family: 'Shadows Into Light', cursive;
     text-transform: uppercase;
     border-radius: 4px;
     background-color:#007bff;
@@ -511,6 +586,7 @@ font-size: 2.1rem;
     font-weight: lighter;
     line-height: 1.8rem;
     color:#eae5f3;
+    color:#e0c39f;
  text-transform: uppercase;
 }
 
@@ -544,6 +620,7 @@ font-size: 2.1rem;
     font-weight: lighter;
     line-height: 1.8rem;
     color:#b6d489;
+    color:#e0c39f;
  text-transform: capitalize;
 
 }
@@ -600,6 +677,7 @@ font-size: 2.1rem;
     position:relative;
     padding-top:25px;
     color:#eae5f3;
+    color:#e0c39f;
 }
 
 /* CSS style for the page working with me */
@@ -678,6 +756,8 @@ font-size: 2.1rem;
  width:100%;
  height:auto;
  background-color:blueviolet;
+ background-color:#4b499c;
+ background-color:#00008b;
  color:#c7d1d8;
  color: white;
 }
@@ -731,7 +811,7 @@ color:#fff;
     padding-left: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
-    border: 1px dotted #afa2d6;
+    border: 1px dotted #ab735e;
 }
 .contactus-zone h2{
 color:#fff;
@@ -756,13 +836,41 @@ text-transform: uppercase;
 .contactus-zone p{
     font-size:0.9rem;
     color:#c1bef7;
+    color:#e2e8e6;
 }
 
 .btn-success {
     color:#fff;
-    background-color: green;
-    border-color: #507368;
+    /*background-color: green;
+    border-color: #507368;*/
+    background-color:#73717c;
+    border-color: #73717c;
 }
+
+.btn-success:hover {
+    color:#fff;
+    background-color:#645a8e;
+    border-color: #645a8e;
+}
+
+.btn-success:active {
+    color:#fff;
+    background-color:#645a8e;
+    border-color: #645a8e;
+}
+
+.btn-success:focus {
+    color:#fff;
+    background-color:#645a8e;
+    border-color: #645a8e;
+}
+
+.btn-success:current {
+    color:#fff;
+    background-color:#645a8e;
+    border-color: #645a8e;
+}
+
 
 /* User agreement Styles */
 
@@ -780,8 +888,10 @@ text-transform: uppercase;
     margin: 0 auto;
     color:#efdbdb;
     text-align:center;
+    font-family: 'Monoton', cursive;
+    font-family: 'Shadows Into Light', cursive;
     font-weight: lighter;
-    font-size: 90%;
+    font-size: 1.2rem;
     line-height:1.2em;
 }
 
@@ -858,6 +968,68 @@ label {
     text-shadow: 0 1px 0 #a89dc3;
     opacity: .5;
 }
+
+
+
+
+.navbar a[class="navbar-brand"] {
+    /*color: #0215af;
+    color:#b5b5e2;
+    color:#dcb4a7;
+    color:#d6bfb7;
+    color:#e26b8c;
+    color:#948a89;*/
+    color:#4a4aab;
+    
+}
+
+.navbar a[class="navbar-brand"]:hover{
+    /*color: #050cb16b;
+    color:white;
+    color:#d6bfb7;
+    color:#b1a5a4;
+    color:#b1afe2;
+    color:#6666a5;*/
+    color:#4a4aab;
+    color:#6666a5;
+}
+
+.navbar-light .navbar-brand {
+    color:#100d0c;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    white-space: nowrap;
+font-size: 9.1rem;
+font-weight: bold;
+line-height: 1.8rem;
+text-transform: uppercase;
+color:#b5b5e2;
+color:white;
+text-decoration:none;
+   
+}
+
+.bg-light {
+    background-color: #00008b!important;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(255 255 255);
+    border-color: rgb(255 255 255);
+}
+
+header p{
+    font-family: 'Marck Script', cursive;
+    color:white;
+    font-size:1.6rem;
+}
+
+
+
 
 
 /* end of CSS style */

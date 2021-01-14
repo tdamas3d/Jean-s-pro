@@ -11,8 +11,28 @@
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
     <title>Jean's professional profile</title>
     <script src="https://kit.fontawesome.com/71fb7fde01.js" crossorigin="anonymous"></script>
+    
+    <!-- Loading emailJS preprocessors or lib-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+        emailjs.init("user_81Xm0NxjY6gaOln99zqHa");
+        /*emailjs.send("service_96ixgz5","jeanpro",{to_name: "Jean",message: "The reason I contact you is ..."});
+           */        
+      })();
+    </script>
+    <!-- End of Loading emailJS preprocessors or lib-->
+    
+    <!-- Load Our Site Javascript Code-->
+         <!-- JQuery Via CDN-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <!-- JQuery via file hosted here by us in this project-->
+    <script type="text/javascript" src="assets/scripts/jquery-3.5.1.js"></script>
+         
+    <!-- Developer's javascripts code for the project -->
+    <script type="text/javascript" src="assets/scripts/script.js"> </script>
 </head>
-<body>
+<body id="pstart">
      
 
         <!-- HEADER SECTION STARTS-->
@@ -29,23 +49,12 @@
 
       <div class="row banner-zone">
            
-           <div class="col-md-5 big-logo">
-             <h1 class="d-none d-sm-none d-md-inline-block d-lg-inline-block d-xl-inline-block"><a href="index.html#about">jean's pro</a>
-             </h1>
-
-             <p class="under-logo">Jean's Professional Profile</p>
-             
-             
-              <div class="col-md-3 profile-image0"> <!--For profile image-->
-              <img src="assets/images/profile-image.jpg" alt="jean's profile photo">  
-             
-              </div>
-
-             
-             </div>
-             
+           
             <!-- main navigation-->
-           <div class="col-md-7 home-image d-none d-sm-block d-md-block d-lg-block d-xl-block">
+           <div class="col-12 col-sm-12 col-md-12 col-lg-12 home-image d-block d-sm-block d-md-block d-lg-block d-xl-block">
+               
+               
+
             <div class="home-image-content"> <!--div image content-->
 
 
@@ -53,69 +62,84 @@
             
 
             <!-- main navigation-->
+            
            <div class="top-nav-links">
             
-                <nav class="d-none d-sm-inline-block d-md-inline-block d-lg-inline-block d-xl-inline-block">
+               
+          <nav class="navbar navbar-light bg-light">
+              
+              <div class="col-md-3 profile-image0">
+                  
+              <img src="assets/images/profile-image.jpg" alt="jean's profile photo">  
+             
+              </div>
+              
+  <a class="navbar-brand" href="/"> Jean's Pro</a>
+  
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+        
+        
+        
+        <div class="d-none d-sm-none d-md-block d-lg-block">
+                  
+                   <p>Welcome to Jean's Pro, a web space for Jean's Professional Profile</p>
+                   
+                   
+                   </div> 
+        
+        
+        
+        
+        <nav class="d-inline-block d-sm-inline-block d-md-inline-block d-lg-inline-block d-xl-inline-block">
                      <ul>
-                      <li><a href="index.html"><i class="fas fa-home fa-md"></i> Home</a></li>
-                      <li><a href="index.html#about"><i class="fas fa-info-circle fa-md"></i> About</a></li>
-                      <li><a href="projects.html#project"><i class="fas fa-tasks fa-md"></i> Projects</a></li>
-                      <li><a href="index.html#contactus" target="_self"><i class="fab fa-meetup fa-md"></i> Contact</a></li>
+                      <li id="home-link" class="action-links"><a href="/"><i class="fas fa-home fa-md"></i> Home</a></li>
+                      <li id="about-link" class="action-links"><a href="#rcontent"><i class="fas fa-info-circle fa-md"></i> About Me</a></li>
+                      <li id="projects-link" class="action-links"><a href="#rcontent"><i class="fas fa-tasks fa-md"></i> My Projects</a></li>
+                      <li id="contactus-link" class="action-links"><a href="#rcontent"><i class="fab fa-meetup fa-md"></i> Contact</a></li>
+
                       <li><a href="assets/files/CV_of_Jean.pdf" target="_blank"><i class="fas fa-download fa-md"></i> Download CV</a></li>
-                      <li><a href="working-with-me.html#working-with-me">Working With Me <i class="far fa-handshake"></i></a></li>
+                      
+                       <li id="working-with-me-link" class="action-links"><a href="#rcontent">Working With Me <i class="far fa-handshake"></i></a></li>
                      </ul>
-                </nav> 
-                         
-          
-             <!--Navbar-->
-<nav class="navbar navbar-light navbar-9 white col-12 d-block d-sm-none d-md-none d-lg-none d-xl-none">
-
-  <!-- Navbar brand -->
-  <a class="navbar-brand" href="index.html#about">Jean's Professional Profile</a>
-
-  <!-- Collapse button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
-    aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-
-  <!-- Collapsible content -->
-  <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-
-    <!-- Links -->
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html"><i class="fas fa-home fa-sm"></i> Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a href="index.html#about"><i class="fas fa-info-circle fa-sm"></i> About</a>
-      </li>
-      <li class="nav-item">
-        <a href="projects.html#project"><i class="fas fa-tasks fa-md"></i> Projects</a>
-      </li>
-      <li class="nav-item">
-        <a href="working-with-me.html#working-with-me"><i class="far fa-handshake"></i> Working With Me</a>
-      </li>
-      <li class="nav-item">
-        <a href="index.html#contactus" target="_self"><i class="fa fa-question-circle" aria-hidden="true"></i> Contact</a>
-      </li>
-      <li class="nav-item">
-        <a href="assets/files/CV_of_Jean.pdf" target="_blank"><i class="fas fa-download"></i> Download CV</a>
-      </li>
+                </nav>
+        
+        
+        
+ 
       
-    </ul>
-    <!-- Links -->
-
+      
+      
+    </div>
   </div>
-  <!-- Collapsible content -->
-
 </nav>
-<!--/.Navbar-->
-
-
-           </div><!-- End main nav and social links-->
-           
           
-             <div class="social-networks">
-             <h6>Let's connect too <i class="far fa-smile-wink fa-md"></i>!</h6>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+
+<div class="social-networks d-none d-sm-none d-md-block d-lg-block">
+             <h6>Connect with me on social networks <i class="far fa-smile-wink fa-md"></i></h6>
                  <nav>
                      <ul>
                       <li><a href="https://www.linkedin.com/in/jtwizeyimana" target="_blank"><i class="fab fa-linkedin-in fa-md"></i> </a></li>
@@ -127,16 +151,32 @@
                      </ul>
                 </nav>
             </div>
-            
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           </div><!-- End main nav and social links-->
+           
+          
+           
 
           </div><!--End column for nav--> 
 
-            
+           
            
              </div> <!--end div image content-->
            </div><!--End Banner Images colum for main nav-->
-                    
+              
 
 </header>
 
@@ -149,36 +189,40 @@
 
 <div id="about" class="row about">
      <div class="col-md-12">
-     <div class="row">
-      <div class="col-md-12 space-free">
-       <h2 class="about-title">welcome! välkommen</h2>
-      </div>
-     </div>
+         
 
  <div class="row">
 
-      <div class="col-md-12 about-short-text">
-             <p>
-<strong>JEAN'S PRO a.k.a Jean's professional Profile is here live!</strong> <br><br>
+      <!--<div id="content-display-zone" class="col-md-12 about-short-text">-->
+      
+      
+          
+     <div id="rcontent" class="col-md-12 about-short-text">
+ 
+ <div class="row">
+      <div class="col-md-12 space-free d-none d-sm-none d-md-block d-lg-block">
+       <h2 class="about-title">Välkommen</h2>
+      </div>
+</div>
+ 
+<p>
+    <br>
+<strong>My name is Jean Damascene Twizeyimana</strong><br>
 
-Hi, my name is Jean Damascene Twizeyimana.<br>
-My career history is very strong in computer science and information systems development. I have strong education in computer science, and information systems development; good programming hands-on skills in web technologies of HTML 5, CSS, Javascript, and programming languages of C, C++, Java, and Python, etc.
+
+Theorize, Design, Develop, Implement Information Systems and Infrastructures - - is my living experience.<br>
+My career history is strong in computer science and information systems development. I have strong education in computer science, and information systems development; good programming hands-on skills in web technologies of HTML 5, CSS, Javascript, and programming languages of C, C++, Java, and Python, etc.
 
 I have competences and experience in programming, development of software, Information Systems (IS), Information Infrastructures (IIs).Strong competences in research and education.<br> 
-Also, I am kind of entrepreneur. I have competences in innovations and businesses , in digital marketing with know how of Google Ads, Facebook advertizing, Microsoft advertizing, etc. <br>
-I am honest, humble, social, service-oriented, and results-driven.<br>
-I like hicking, biking, play piano, football, basketball, volleyball, gym, swimming, ...
 <br><br>
-Here are <a href="competences.html#competence"><i class="fas fa-assistive-listening-systems"></i> my competences</a>; 
-<a href="projects.html#project"> <i class="fas fa-tasks fa-md"></i> my projects</a>; and the about
-<a href="working-with-me.html#working-with-me"> <i class="far fa-handshake"></i> working with (or hire) me</a>.<br>
+The following links, respectively, would give you more details about my competencies, my projects, and working with me <br>- - <a href="competences.html#competence"><i class="fas fa-assistive-listening-systems"></i> Competences</a> - -
+<a href="projects.html#project"> <i class="fas fa-tasks fa-md"></i> Projects</a> - -
+<a href="working-with-me.html#working-with-me"> <i class="far fa-handshake"></i> Working With (or hire) Me</a>.<br>
 
 
 Also, you can visit my online profiles at:<br>
-<span><a href="https://www.linkedin.com/in/jtwizeyimana" target="_blank"><i class="fab fa-linkedin"></i> LinkeldIn</a>, <a href="https://scholar.google.se/citations?user=Im9_YlcAAAAJ&hl=en" target="_blank"><i class="fab fa-google"></i> Google Scholar</a>, <a href="https://www.researchgate.net/profile/Jean_Damascene_Twizeyimana" target="_blank"><i class="fab fa-researchgate"></i> Research Gate</a>, and on <a href="https://www.facebook.com/jtwizeyimana/" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></span></p>
+<span><a href="https://www.linkedin.com/in/jtwizeyimana" target="_blank"><i class="fab fa-linkedin"></i> LinkeldIn</a>, <a href="https://scholar.google.se/citations?user=Im9_YlcAAAAJ&hl=en" target="_blank"><i class="fab fa-google"></i> Google Scholar</a>, <a href="https://www.researchgate.net/profile/Jean_Damascene_Twizeyimana" target="_blank"><i class="fab fa-researchgate"></i> Research Gate</a>, and on <a href="https://www.facebook.com/jtwizeyimana/" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></span>
 
-      </div>
-     </div>
 
 <div class="row short-summary">
       <div class="col-md-6">
@@ -198,11 +242,6 @@ Master of Science Honours Degree in Information and Communication Technology - O
 Bachelor of Science Honours Degree in Computer Science <br>
 <a href="assets/files/CV_of_Jean.pdf" target="_blank">More ...</a>
 </p>
-<h2>Hobbies</h2>
-<p class="lead">
-Play Football,Hand ball, Basket ball, Tennis <br>
-Play piano, Watch TV, Hicking, ...                
-</p>  
 <h2><a href="assets/files/CV_of_Jean.pdf" target="_blank">more ...</a> </h2>
 
      </div>
@@ -219,104 +258,13 @@ Play piano, Watch TV, Hicking, ...
     
      </div>
 </div>
+
 </div>
-</div>
+
+
+
 </div><!--Section for content ends here-->
 
-<!-- Contact us zone starts here-->
-
-
-<!-- STARTS CONTACT US ZONE AND ITS ELEMENTS-->
-    <section class="container-fluid text-wrapper">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 footer-zone">             
-                  <div class="container-fluid main-container">
-       <div class="row"> <!-- Top-row-->
-              <div class="col-12">
-                  <div class="row">
-               <div class="col-3 contactus-left-zone"> <!-- START OF LEFT ZONE -->
-                     <div class="row d-none d-sm-block d-md-block d-lg-block d-xl-block">
-                      <div class="col-12 content-left">
-                   
-                        <h2 class="btn-success"> Jean's Pro</h2>
-                        <!--<h2> Jean's Pro</h2>-->
-                        
-                        <p class="lead">
-                            Transforming Projects' Ideas Into Real, Complete, and Useful Products Is my Goal <i class="far fa-thumbs-up fa-lg"></i>
-                        </p>
-                        
-                      </div>
-                    </div>                   
-                </div> 
-
-                     <div class="col-9 right-zone">                 
-                      <div class="col-12 main-content contactus-zone lead">
-                        <h2 id="contactus">Contact Us</h2>
-                        
-                        <p class="lead">
-                        <i class="fa fa-phone" aria-hidden="true"></i> Contact us for Help and Questions. We will respond within 24 hours. <br> <strong>Via Phone Calling: +46769749258</strong><br> OR
-                        </p><button data-toggle="modal" data-target="#messageModal" class="btn-success">Text Message</button><br><br>
-                        <p class="lead">Thank you for contacting us!<br>
-                        
-                        Go back to the top of the page for more info. and browsing.<br><br> <a href="index.html"> Go back  <i class="fa fa-long-arrow-left" aria-hidden="true"></i> <i class="fa fa-shopping-basket" aria-hidden="true"></i></a></p>
-                      </div>                      
-
-                      </div> 
-
-                 </div>
-        </div>
-        </div> 
-    </div>
-                 
-            
-        <!-- SECTION FOR ELEMENTS OF THE Contact us form HTML -->
-
-        <section>  
-
-         <div class="modal" tabindex="-1" role="dialog" id="messageModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Send A Message</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-                </div>
-                
-                <div class="modal-body">
-                    <form action="/contactus.php" method="post">
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address (Required)</label>
-                            <input type="email" class="form-control" name="subscriber_email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                           <label for="exampleInputNames">Names </label>
-                            <input type="text" class="form-control" name="names" id="exampleInputNames" aria-describedby="exampleInputNames" placeholder="Type Names">
-                            
-                            </div>
-                         <div class="form-group"> 
-                             <label for="exampleInputMessage">Message </label>
-                            <textarea class="form-control" name="usermessage" id="exampleInputMessage" rows="4" cols="50" aria-describedby="messageHelp" placeholder="Type your message here">
-                            </textarea>
-                            <small id="messageHelp" class="form-text text-muted">Make your message straight to the point</small>
-                        </div>
-
-                        <button type="submit" class="btn btn-success">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    </section>     <!-- End SECTION FOR Contact us form HTML -->
-
-            </div>
-
-        </div>
-    </section>
-     <!-- END SECTION OF CONTACT US ZONE AND ITS ELEMENTS-->
-
-<!-- Contact us zone ends -->
 
 
 
@@ -324,8 +272,7 @@ Play piano, Watch TV, Hicking, ...
 <!-- user privacy agreements starts here-->
 
 <div class="container-fluid user-agreement d-none d-sm-inline d-md-inline d-lg-inline d-xl-inline">
-        <p class="lead"><i class="fas fa-lock fa-lg"></i> We take good care of you and your data. We'll never share your data with anyone else.
-You can read more about how we protect privacy of your data <a href="https://ec.europa.eu/info/law/law-topic/data-protection/eu-data-protection-rules_en" target="_blank"> Here.</a>
+        <p class="lead"><i class="fas fa-lock fa-lg"></i> We take good care of you and your data.You can read more about how we protect privacy of your data <a href="https://ec.europa.eu/info/law/law-topic/data-protection/eu-data-protection-rules_en" target="_blank"> Here.</a>
 <span class="d-none d-sm-inline d-md-inline d-lg-inlined-xl-inline"><strong>Copyright © 2020 · Jean's Pro All Rights Reserved.</strong></span></p>
 
 
@@ -333,12 +280,12 @@ You can read more about how we protect privacy of your data <a href="https://ec.
 
                 <nav>
                      <ul>
-                      <li><a href="index.html"><i class="fas fa-home fa-md"></i> Home</a></li>
-                      <li><a href="index.html#about"><i class="fas fa-info-circle fa-md"></i> About</a></li>
-                      <li><a href="projects.html#project"><i class="fab fa-r-project fa-md"></i> Projects</a></li>
-                      <li><a href="index.html#contactus" target="_self"><i class="fa fa-question-circle fa-md" aria-hidden="true"></i> Contact</a></li>
+                      <li id="home-blink" class="action-links"><a href="/"><i class="fas fa-home fa-md"></i> Home</a></li>
+                      <li id="about-blink" class="action-links"><a href="#rcontent"><i class="fas fa-info-circle fa-md"></i> About</a></li>
+                      <li id="projects-blink" class="action-links"><a href="#rcontent"><i class="fab fa-r-project fa-md"></i> Projects</a></li>
+                      <li id="contactus-blink" class="action-links"><a href="#rcontent"><i class="fa fa-question-circle fa-md" aria-hidden="true"></i> Contact</a></li>
                       <li><a href="assets/files/CV_of_Jean.pdf" target="_blank">Download CV <i class="fas fa-download fa-md"></i></a></li>
-                                            <li><a href="working-with-me.html#working-with-me"><i class="far fa-handshake fa-md"></i> Working With Me</a></li>
+                                            <li id="working-with-me-blink" class="action-links"><a href="#rcontent"><i class="far fa-handshake fa-md"></i> Working With Me</a></li>
                      </ul>
                 </nav> 
                          
@@ -373,5 +320,7 @@ You can read more about how we protect privacy of your data <a href="https://ec.
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>   
+    
+    <script src="assets/scripts/sendEmail.js"></script>
     </body>
 </html>
